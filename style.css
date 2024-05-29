@@ -167,4 +167,13 @@
     left: 10px; /* Bottom left corner */
     bottom: 10px; /* Bottom left corner */
 }
-  
+
+#score-container {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-align: right;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+}
