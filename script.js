@@ -52081,9 +52081,20 @@ const initializer = () => {
     letterContainer.append(button);
   }
 
-  displayOptions();
-  //Call to canvasCreator (for clearing previous canvas and creating initial canvas)
+  // Create score display elements
+  const scoreContainer = document.createElement("div");
+  scoreContainer.id = "score-container";
+  scoreContainer.innerHTML = `
+    <div id="best-score">Best Score: 0</div>
+    <div id="current-streak">Streak: 0</div>
+  `;
+  document.body.appendChild(scoreContainer);
+
+  // Call to displayOptions and other initial setup
   let { initialDrawing } = canvasCreator();
+  initialDrawing();
+
+  displayOptions();
   //initialDrawing would draw the frame
   initialDrawing();
 };
@@ -52200,3 +52211,23 @@ document.addEventListener("DOMContentLoaded", function() {
       body.style.backgroundImage = `url('${randomBackground}')`;
   });
 });
+
+let bestScore = 0;
+let currentStreak = 0;
+
+// Update the win and lose logic
+const updateScores = (win) => {
+  if (win) {
+    currentStreak++;
+    if (currentStreak > bestScore) {
+      bestScore = currentStreak;
+      document.getElementById("best-score").innerText = `Best Score: ${bestScore}`;
+    }
+  } else {
+    currentStreak = 0;
+  }
+  document.getElementById("current-streak").innerText = `Streak: ${currentStreak}`;
+};
+
+// Call updateScores(true) in the win condition inside the button event listener
+// Call updateScores(false) in the lose condition
