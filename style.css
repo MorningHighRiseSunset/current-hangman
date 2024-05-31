@@ -61,7 +61,8 @@
     border-radius: 0.3em;
     background-color: #ffffff;
     cursor: pointer;
-  }
+    border: 1px solid black; /* Added black outline */
+}
   .new-game-popup {
     background-color: #ffffff;
     position: absolute;
