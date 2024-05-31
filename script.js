@@ -84,7 +84,6 @@ let options = {
     { word: "xylophone", definition: "A musical instrument played by striking a row of wooden bars of graduated length with one or more small wooden or plastic beaters." },
     { word: "yacht", definition: "A medium-sized sailboat equipped for cruising or racing." },
     { word: "zoo", definition: "An establishment which maintains a collection of wild animals, typically in a park or gardens, for study, conservation, or display to the public." },
-    // Additional 74 words omitted for brevity
   ],
 
   Medium: [
@@ -396,14 +395,24 @@ const initializer = () => {
   newGameContainer.classList.add("hide");
   letterContainer.innerHTML = "";
 
-  //For creating letter buttons
-  for (let i = 65; i < 91; i++) {
-    let button = document.createElement("button");
-    button.classList.add("letters");
-    button.innerText = String.fromCharCode(i);
-    button.addEventListener("click", letterButtonClickHandler);
-    letterContainer.append(button);
-  }
+  // For creating letter buttons
+for (let i = 65; i < 91; i++) {
+  let button = document.createElement("button");
+  button.classList.add("letters");
+  button.innerText = String.fromCharCode(i); // Converts ASCII code to character (A-Z)
+  button.addEventListener("click", letterButtonClickHandler);
+  letterContainer.append(button);
+}
+
+// Adding apostrophe and hyphen buttons
+const additionalChars = ["'", "-"];
+additionalChars.forEach(char => {
+  let button = document.createElement("button");
+  button.classList.add("letters");
+  button.innerText = char;
+  button.addEventListener("click", letterButtonClickHandler);
+  letterContainer.append(button);
+});
 
   displayOptions();
   let { initialDrawing } = canvasCreator();
