@@ -7,6 +7,13 @@ const newGameButton = document.getElementById("new-game-button");
 const canvas = document.getElementById("canvas");
 const resultText = document.getElementById("result-text");
 
+let currentStreak = 0;
+let highestScore = 0;
+
+document.getElementById('showHighestScore').addEventListener('click', function() {
+  alert(`Highest Score: ${highestScore}`);
+});
+
 // Ensure the correct words list container exists only once
 const correctWordsList = document.getElementById("correct-words-list") || createCorrectWordsList();
 
@@ -32,7 +39,7 @@ let options = {
     "school", "rose", "quilt", "pencil", "lamp", "kangaroo", "jelly", "island", "horse", "grape", 
     "forest", "egg", "dolphin", "crocodile", "butterfly", "ant", "giraffe", "house", "igloo", "juice", 
     "king", "leaf", "mountain", "north", "ocean", "panda", "quack", "river", "sun", "tree", 
-    "unicorn", "volcano", "wolf", "yo-yo", "zeppelin", "ax", "beach", "cave", "desert", 
+    "unicorn", "volcano", "wolf", "zeppelin", "ax", "beach", "cave", "desert", 
     "eagle", "flute", "guitar", "helicopter", "island", "jacket", "kiwi", "lemon", "mango", "notebook", 
     "octopus", "parrot", "queen", "rope", "star", "train", "umbrella", "violin", "wall", "xenon", 
     "yacht", "zoo", "banana", "cherry", "date", "fig", "grapefruit", "honeydew", "kiwifruit", "lime", 
@@ -61,22 +68,7 @@ let options = {
     "enfranchise", "epitome", "equanimity", "equivocate", "esoteric", "euphoric", "evanescent", "exacerbate", "exculpate", "exigent",
     "expedient", "extraneous", "fastidious", "fatuous", "fecund", "feral", "florid", "fractious", "garrulous", "grandiloquent",
     "gregarious", "hackneyed", "hapless", "hegemony", "iconoclast", "idiosyncratic", "impecunious", "impetuous", "impinge", "implacable",
-    "inchoate", "incumbent", "inexorable", "inimical", "iniquity", "insidious", "insolvent", "interlocutor", "inure", "invective",
-    "irascible", "laconic", "lampoon", "largesse", "lethargic", "limpid", "lithe", "magnanimous", "malevolent", "malleable",
-    "manifold", "maudlin", "maverick", "mawkish", "mendacious", "mercurial", "modicum", "morass", "multifarious", "munificent",
-    "myriad", "nadir", "nascent", "nebulous", "nefarious", "neophyte", "nocturnal", "noxious", "obdurate", "obfuscate",
-    "oblique", "obstreperous", "obviate", "occlude", "odious", "onerous", "ostensible", "ostracism", "palliate", "panacea",
-    "paradigm", "pariah", "partisan", "paucity", "pejorative", "pellucid", "penchant", "penurious", "perfunctory", "pernicious",
-    "pertinacious", "phlegmatic", "pithy", "platitude", "plethora", "pliable", "poignant", "polemic", "pragmatic", "precocious",
-    "prescient", "probity", "proclivity", "profligate", "progeny", "prolific", "prosaic", "protean", "prudence", "pugnacious",
-    "pulchritude", "punctilious", "quagmire", "quixotic", "quotidian", "rancor", "recalcitrant", "redoubtable", "refractory", "replete",
-    "reprehensible", "repudiate", "rescind", "reticent", "reverent", "ribald", "rife", "sagacious", "salient", "sanguine",
-    "scurrilous", "sedentary", "sedulous", "solicitous", "solipsism", "spurious", "staid", "stolid", "subjugate", "sublime",
-    "subterfuge", "supercilious", "superfluous", "surfeit", "surreptitious", "tacit", "taciturn", "tangential", "tantamount", "temerity",
-    "tenuous", "terse", "tirade", "torpid", "tractable", "transient", "trepidation", "truculent", "tumultuous", "ubiquitous",
-    "umbrage", "unctuous", "undulate", "upbraid", "usurp", "vacillate", "vacuous", "vapid", "variegated", "vehement",
-    "venal", "venerate", "veracity", "verbose", "verdant", "verisimilitude", "vestige", "vicarious", "vilify", "vindicate",
-    "virtuoso", "vitriolic", "vituperate", "vociferous", "wanton", "winsome", "wistful", "zealous", "zenith", "zephyr"
+    "inchoate", "incumbent", "inexorable", "inimical", "iniquity", "insidious", "insolvent", "interlocutor", "inure", "invective"
   ],
 };
 
@@ -179,7 +171,11 @@ function letterButtonClickHandler() {
           blocker();
           const newListItem = document.createElement("li");
           newListItem.textContent = chosenWord;
+          newListItem.style.color = "green"; // Correct word in green
           correctWordsList.appendChild(newListItem);
+          currentStreak++;
+          highestScore = Math.max(highestScore, currentStreak);
+          document.getElementById('streak').innerText = `Current Streak: ${currentStreak}`;
         }
       }
     });
@@ -189,6 +185,12 @@ function letterButtonClickHandler() {
     if (count == 6) {
       resultText.innerHTML = `<h2 class='lose-msg'>You Lose!!</h2><p>The word was <span>${chosenWord}</span></p>`;
       blocker();
+      const newListItem = document.createElement("li");
+      newListItem.textContent = chosenWord; // Add the incorrect word to the list
+      newListItem.style.color = "red"; // Incorrect word in red
+      correctWordsList.appendChild(newListItem);
+      currentStreak = 0;
+     document.getElementById('streak').innerText = `Current Streak: ${currentStreak}`;
     }
   }
   this.disabled = true;
