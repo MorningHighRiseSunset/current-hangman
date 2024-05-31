@@ -18,15 +18,16 @@ document.getElementById('showHighestScore').addEventListener('click', function()
 const correctWordsList = document.getElementById("correct-words-list") || createCorrectWordsList();
 
 function createCorrectWordsList() {
-    if (!document.getElementById("correct-words-list")) {
-        const listContainer = document.createElement("div");
-        listContainer.id = "correct-words-list";
-        listContainer.className = "correct-words-container";
-        
-        document.body.appendChild(listContainer);
-        return listContainer;
-    }
-    return document.getElementById("correct-words-list");
+  if (!document.getElementById("correct-words-list")) {
+      const listContainer = document.createElement("div");
+      listContainer.id = "correct-words-list";
+      listContainer.className = "correct-words-container";
+      listContainer.style.maxHeight = '300px'; // Ensure max-height is set
+      listContainer.style.overflowY = 'auto'; // Ensure overflow is auto
+      document.body.appendChild(listContainer);
+      return listContainer;
+  }
+  return document.getElementById("correct-words-list");
 }
 
 //Options values for buttons
