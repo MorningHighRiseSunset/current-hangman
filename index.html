@@ -7,6 +7,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css" />
+    <style>
+        #videoFrame {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 400px;  /* Adjust width as needed */
+            height: 300px; /* Adjust height as needed */
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -21,14 +30,12 @@
     </div>
     <button id="changeBackground">Change Background</button>
 
-    <!-- Hidden checkbox -->
+    <!-- Hidden checkbox for toggling instructions -->
     <input type="checkbox" id="toggle" class="visually-hidden">
-    <!-- Label for checkbox acts as the button -->
     <label for="toggle" id="instructionsButton">Instructions</label>
-    <!-- Instructions popup -->
     <div id="instructionsPopup">
         <p>
-            *💬 - Click to activate chat in video box
+            *💬 - Click to activate chat in video box<br>
             * Click on letter on keyboard to initiate game.<br>
             * Click "Restart" if you wish to start a new game.<br>
             * Guess letters to uncover the hidden word before running out of guesses.<br>
@@ -39,24 +46,17 @@
         </p>
     </div>
 
-    <style>
-        #videoFrame {
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 400px;  /* Adjust width as needed */
-            height: 300px; /* Adjust height as needed */
-        }
-    </style>
-
+    <!-- Video frame -->
     <iframe 
         id="videoFrame"
         src="https://brie.fi/ng/reckless-conference-31?audio=1&video=1&fs=1&invite=0&prefs=1&share=1&chat=1"
         allow="camera; microphone; fullscreen; speaker; display-capture">
     </iframe>
+
     <div id="correct-words-list" class="correct-words-container"></div>
     <div id="streak">Current Streak: 0</div>
     <button id="showHighestScore">Show Highest Score</button>
+
     <!-- Script -->
     <script src="script.js"></script>
 </body>
