@@ -358,7 +358,6 @@ const blocker = () => {
 //Word Generator
 const generateWord = (optionValue) => {
   let optionsButtons = document.querySelectorAll(".options");
-  //If optionValue matches the button innerText then highlight the button
   optionsButtons.forEach((button) => {
     if (button.innerText.toLowerCase() === optionValue) {
       button.classList.add("active");
@@ -366,20 +365,21 @@ const generateWord = (optionValue) => {
     button.disabled = true;
   });
 
-  //initially hide letters, clear previous word
   letterContainer.classList.remove("hide");
   userInputSection.innerText = "";
 
   let optionArray = options[optionValue];
-  //choose random word
-  let randomWordObject = optionArray[Math.floor(Math.random() * optionArray.length)];
+  let randomWordObject;
+  do {
+    randomWordObject = optionArray[Math.floor(Math.random() * optionArray.length)];
+  } while (usedWords.includes(randomWordObject.word));
+
+  usedWords.push(randomWordObject.word); // Add the chosen word to the usedWords array
+
   chosenWord = randomWordObject.word.toUpperCase();
   chosenDefinition = randomWordObject.definition;
 
-  //replace every letter with span containing dash
   let displayItem = chosenWord.replace(/./g, '<span class="dashes">_</span>');
-
-  //Display each element as span
   userInputSection.innerHTML = displayItem;
 };
 
@@ -387,36 +387,34 @@ const generateWord = (optionValue) => {
 const initializer = () => {
   winCount = 0;
   count = 0;
+  usedWords = []; // Reset used words for a new game
 
-  //Initially erase all content and hide letters and new game button
   userInputSection.innerHTML = "";
   optionsContainer.innerHTML = "";
   letterContainer.classList.add("hide");
   newGameContainer.classList.add("hide");
   letterContainer.innerHTML = "";
 
-  // For creating letter buttons
-for (let i = 65; i < 91; i++) {
-  let button = document.createElement("button");
-  button.classList.add("letters");
-  button.innerText = String.fromCharCode(i); // Converts ASCII code to character (A-Z)
-  button.addEventListener("click", letterButtonClickHandler);
-  letterContainer.append(button);
-}
+  for (let i = 65; i < 91; i++) {
+    let button = document.createElement("button");
+    button.classList.add("letters");
+    button.innerText = String.fromCharCode(i);
+    button.addEventListener("click", letterButtonClickHandler);
+    letterContainer.append(button);
+  }
 
-// Adding apostrophe and hyphen buttons
-const additionalChars = ["'", "-"];
-additionalChars.forEach(char => {
-  let button = document.createElement("button");
-  button.classList.add("letters");
-  button.innerText = char;
-  button.addEventListener("click", letterButtonClickHandler);
-  letterContainer.append(button);
-});
+  const additionalChars = ["'", "-"];
+  additionalChars.forEach(char => {
+    let button = document.createElement("button");
+    button.classList.add("letters");
+    button.innerText = char;
+    button.addEventListener("click", letterButtonClickHandler);
+    letterContainer.append(button);
+  });
 
   displayOptions();
   let { initialDrawing } = canvasCreator();
-  initialDrawing(); // Draw the initial frame
+  initialDrawing();
 };
 
 // Letter button click handler
@@ -562,4 +560,80 @@ document.addEventListener("DOMContentLoaded", function() {
       // Set the new background image
       body.style.backgroundImage = `url('${randomBackground}')`;
   });
+});
+
+// Modify the letterButtonClickHandler function to include a check for the solve command
+function letterButtonClickHandler() {
+  let inputChar = this.innerText;
+  if (inputChar === "SOLVE") { // Assuming "SOLVE" is the command to solve the game
+    solveWord();
+    return; // Stop further execution
+  }
+
+  let charArray = chosenWord.split("");
+  let dashes = document.getElementsByClassName("dashes");
+  if (charArray.includes(inputChar)) {
+    charArray.forEach((char, index) => {
+      if (char === inputChar) {
+        dashes[index].innerText = char;
+        winCount += 1;
+        if (winCount == charArray.length) {
+          resultText.innerHTML = `<h2 class='win-msg'>You Win!!</h2><p>The word was <span>${chosenWord}</span></p>`;
+          blocker();
+          showDefinitionPopup(chosenWord, chosenDefinition, true);
+          currentStreak++;
+          highestScore = Math.max(highestScore, currentStreak);
+          document.getElementById('streak').innerText = `Current Streak: ${currentStreak}`;
+        }
+      }
+    });
+  } else {
+    count += 1;
+    drawMan(count);
+    if (count == 6) {
+      resultText.innerHTML = `<h2 class='lose-msg'>You Lose!!</h2><p>The word was <span>${chosenWord}</span></p>`;
+      blocker();
+      showDefinitionPopup(chosenWord, chosenDefinition, false);
+      currentStreak = 0;
+      document.getElementById('streak').innerText = `Current Streak: ${currentStreak}`;
+    }
+  }
+  this.disabled = true;
+}
+
+// Object to track the state of keys
+const keysPressed = {
+  Control: false,
+  Q: false
+};
+
+// Function to solve the game
+function solveWord() {
+  const dashes = document.getElementsByClassName("dashes");
+  chosenWord.split("").forEach((char, index) => {
+    dashes[index].innerText = char;
+  });
+  blocker(); // Disable further interactions
+  resultText.innerHTML = `<h2 class='win-msg'>Solved!</h2><p>The word was <span>${chosenWord}</span></p>`;
+  showDefinitionPopup(chosenWord, chosenDefinition, true);
+}
+
+// Event listener for keydown
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Control' || event.key === 'q') {
+    keysPressed[event.key] = true;
+  }
+
+  // Check if the specific combination is pressed
+  if (keysPressed['Control'] && keysPressed['q']) {
+    event.preventDefault(); // Prevent default actions
+    solveWord(); // Solve the game
+  }
+});
+
+// Event listener for keyup
+document.addEventListener('keyup', function(event) {
+  if (event.key === 'Control' || event.key === 'q') {
+    keysPressed[event.key] = false;
+  }
 });
