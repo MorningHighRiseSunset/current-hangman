@@ -32,7 +32,7 @@ function createCorrectWordsList() {
 
 //Options values for buttons
 let options = {
-  Easy: [
+  Normal: [
     { word: "apple", definition: "A fruit that is typically round and red, green, or yellow." },
     { word: "ball", definition: "A round object used in many games and sports." },
     { word: "cat", definition: "A small domesticated carnivorous mammal with soft fur." },
@@ -84,9 +84,53 @@ let options = {
     { word: "xylophone", definition: "A musical instrument played by striking a row of wooden bars of graduated length with one or more small wooden or plastic beaters." },
     { word: "yacht", definition: "A medium-sized sailboat equipped for cruising or racing." },
     { word: "zoo", definition: "An establishment which maintains a collection of wild animals, typically in a park or gardens, for study, conservation, or display to the public." },
-  ],
-
-  Medium: [
+    { word:"banana",definition:"A long curved fruit with a yellow skin."},
+    { word:"carrot",definition:"An orange vegetable that grows underground."},
+    { word:"dolphin",definition:"A highly intelligent marine mammal with a streamlined body."},
+    { word:"elephant",definition:"A large mammal with a long trunk and tusks."},
+    { word:"flamingo",definition:"A tall wading bird with pink feathers and long legs."},
+    { word:"giraffe",definition:"A tall African mammal with a long neck and patterned coat."},
+    { word:"hedgehog",definition:"A small spiny mammal that curls into a ball for protection."},
+    { word:"iguana",definition:"A large lizard with a row of spines along its back."},
+    { word:"jaguar",definition:"A large spotted wild cat found in the Americas."},
+    { word:"koala",definition:"A small arboreal marsupial with thick gray fur."},
+    { word:"lemur",definition:"A small primate with a long tail and large eyes."},
+    { word:"monkey",definition:"A playful and intelligent primate with a long tail."},
+    { word:"narwhal",definition:"A medium-sized toothed whale with a long spiral tusk."},
+    { word:"octopus",definition:"A sea creature with eight tentacles and a soft body."},
+    { word:"penguin",definition:"A flightless bird that swims underwater."},
+    { word:"quokka",definition:"A small marsupial with a friendly face."},
+    { word:"rhinoceros",definition:"A large herbivorous mammal with a horn on its nose."},
+    { word:"sloth",definition:"A slow-moving arboreal mammal found in South and Central America."},
+    { word:"toucan",definition:"A brightly colored bird with a large bill."},
+    { word:"unicorn",definition:"A mythical animal typically represented as a horse with a single straight horn projecting from its forehead."},
+    { word:"vulture",definition:"A large bird of prey that feeds on carrion."},
+    { word:"whale",definition:"A very large marine mammal with a streamlined hairless body, a horizontal tail fin, and a blowhole on top of the head for breathing."},
+    { word:"xenops",definition:"A small bird found in Central and South America."},
+    { word:"yak",definition:"A long-haired bovid found in the Himalayas."},
+    { word:"zebu",definition:"A domesticated ox with a large hump on its shoulders."},
+    { word:"anteater",definition:"A mammal with a long snout and a sticky tongue for eating ants."},
+    { word:"bison",definition:"A large mammal with a hump on its back and shaggy fur."},
+    { word:"cheetah",definition:"A fast-running wild cat with distinctive black spots."},
+    { word:"dodo",definition:"An extinct flightless bird of Mauritius."},
+    { word:"emu",definition:"A large flightless bird native to Australia."},
+    { word:"falcon",definition:"A bird of prey with long pointed wings and a hooked beak."},
+    { word:"gazelle",definition:"A small antelope with a slender body and curved horns."},
+    { word:"hyena",definition:"A carnivorous mammal with a distinctive laugh-like cry."},
+    { word:"impala",definition:"A medium-sized antelope found in Africa."},
+    { word:"jackal",definition:"A wild dog found in Africa and Asia."},
+    { word:"kangaroo",definition:"A marsupial with powerful hind legs for hopping."},
+    { word:"lemming",definition:"A small rodent known for mass migrations."},
+    { word:"mongoose",definition:"A small carnivorous mammal known for killing snakes."},
+    { word:"nighthawk",definition:"A nocturnal bird of prey with a distinctive call."},
+    { word:"opossum",definition:"A marsupial with a prehensile tail found in the Americas."},
+    { word:"panther",definition:"A large wild cat with a black coat."},
+    { word:"quail",definition:"A small game bird with a plump body."},
+    { word:"reindeer",definition:"A deer with antlers found in northern regions."},
+    { word:"salamander",definition:"A small amphibian with a long tail and moist skin."},
+    { word:"toucan",definition:"A brightly colored bird with a large bill."},
+    { word:"umbrellabird",definition:"A large black bird with a distinctive umbrella-like crest."},
+    { word:"viper",definition:"A venomous snake with hinged fangs."},    
     { word: "allegory", definition: "A story, poem, or picture that can be interpreted to reveal a hidden meaning, typically a moral or political one." },
     { word: "benevolent", definition: "Well meaning and kindly." },
     { word: "capricious", definition: "Given to sudden and unaccountable changes of mood or behavior." },
@@ -191,7 +235,7 @@ let options = {
     { word: "zeal", definition: "Great energy or enthusiasm in pursuit of a cause or an objective." }
   ],
 
-  Hard: [
+  Challenging : [
     { word: "abrogate", definition: "Repeal or do away with (a law, right, or formal agreement)." },
     { word: "acumen", definition: "The ability to make good judgments and quick decisions, typically in a particular domain." },
     { word: "adumbrate", definition: "Report or represent in outline." },
@@ -318,7 +362,62 @@ let options = {
     { word: "vituperate", definition: "Blame or insult (someone) in strong or violent language." },
     { word: "wheedle", definition: "Use flattery or coaxing in order to persuade someone to do something or give one something." },
     { word: "winsome", definition: "Attractive or appealing in appearance or character." },
-    { word: "zealous", definition: "Having or showing zeal." }
+    { word: "zealous", definition: "Having or showing zeal." },
+    { word: "sophistry", definition: "The art of using clever arguments or words to deceive or confuse others." },
+    { word: "Aberration", definition: "A departure from what is normal, usual, or expected." },
+    { word: "Abrogate", definition: "Repeal or do away with (a law, right, or formal agreement)." },
+    { word: "Acumen", definition: "The ability to make good judgments and quick decisions." },
+    { word: "Allegory", definition: "A story, poem, or picture that can be interpreted to reveal a hidden meaning, typically a moral or political one." },
+    { word: "Benevolent", definition: "Well meaning and kindly." },
+    { word: "Capricious", definition: "Given to sudden and unaccountable changes of mood or behavior." },
+    { word: "Deleterious", definition: "Causing harm or damage." },
+    { word: "Ephemeral", definition: "Lasting for a very short time." },
+    { word: "Facetious", definition: "Treating serious issues with deliberately inappropriate humor; flippant." },
+    { word: "Gregarious", definition: "Fond of company; sociable." },
+    { word: "Hubris", definition: "Excessive pride or self-confidence." },
+    { word: "Immutable", definition: "Unchanging over time or unable to be changed." },
+    { word: "Juxtapose", definition: "Place or deal with close together for contrasting effect." },
+    { word: "Kinetic", definition: "Relating to or resulting from motion." },
+    { word: "Laconic", definition: "Using very few words." },
+    { word: "Magnanimous", definition: "Very generous or forgiving, especially toward a rival or someone less powerful than oneself." },
+    { word: "Nefarious", definition: "Wicked, villainous, or criminal." },
+    { word: "Obfuscate", definition: "Render obscure, unclear, or unintelligible." },
+    { word: "Paradigm", definition: "A typical example or pattern of something; a model." },
+    { word: "Quixotic", definition: "Exceedingly idealistic; unrealistic and impractical." },
+    { word: "Recalcitrant", definition: "Having an obstinately uncooperative attitude towards authority or discipline." },
+    { word: "Sagacity", definition: "The quality of being sagacious; possessing keen mental discernment and good judgment." },
+    { word: "Taciturn", definition: "Reserved or uncommunicative in speech; saying little." },
+    { word: "Ubiquitous", definition: "Present, appearing, or found everywhere." },
+    { word: "Venerable", definition: "Accorded a great deal of respect, especially because of age, wisdom, or character." },
+    { word: "Wanton", definition: "Deliberate and unprovoked." },
+    { word: "Xenophobia", definition: "Dislike of or prejudice against people from other countries." },
+    { word: "Yoke", definition: "A wooden crosspiece that is fastened over the necks of two animals and attached to the plow or cart that they are to pull." },
+    { word: "Zealot", definition: "A person who is fanatical and uncompromising in pursuit of their religious, political, or other ideals." },
+    { word: "Acquiesce", definition: "Accept something reluctantly but without protest." },
+    { word: "Bellicose", definition: "Demonstrating aggression and willingness to fight." },
+    { word: "Cacophony", definition: "A harsh, discordant mixture of sounds." },
+    { word: "Deference", definition: "Humble submission and respect." },
+    { word: "Eclectic", definition: "Deriving ideas, style, or taste from a broad and diverse range of sources." },
+    { word: "Fallacy", definition: "A mistaken belief, especially one based on unsound argument." },
+    { word: "Garish", definition: "Obtrusively bright and showy; lurid." },
+    { word: "Haphazard", definition: "Lacking any obvious principle of organization." },
+    { word: "Iconoclast", definition: "A person who attacks or criticizes cherished beliefs or institutions." },
+    { word: "Jovial", definition: "Cheerful and friendly." },
+    { word: "Knack", definition: "An acquired or natural skill at performing a task." },
+    { word: "Lithe", definition: "Thin, supple, and graceful." },
+    { word: "Meticulous", definition: "Showing great attention to detail; very careful and precise." },
+    { word: "Novice", definition: "A person new to or inexperienced in a field or situation." },
+    { word: "Ostracize", definition: "Exclude (someone) from a society or group." },
+    { word: "Plausible", definition: "Seeming reasonable or probable." },
+    { word: "Quandary", definition: "A state of perplexity or uncertainty over what to do in a difficult situation." },
+    { word: "Raucous", definition: "Making or constituting a disturbingly harsh and loud noise." },
+    { word: "Stoic", definition: "A person who can endure pain or hardship without showing their feelings or complaining." },
+    { word: "Transient", definition: "Lasting only for a short time; impermanent." },
+    { word: "Unfathomable", definition: "Incapable of being fully explored or understood." },
+    { word: "Verbose", definition: "Using or expressed in more words than are needed." },
+    { word: "Wistful", definition: "Having or showing a feeling of vague or regretful longing." },
+    { word: "Zealous", definition: "Having or showing zeal." },
+    { word: "Sophistry", definition: "The art of using clever arguments or words to deceive or confuse others." },
   ],
 };
 
@@ -355,7 +454,8 @@ const blocker = () => {
   newGameContainer.classList.remove("hide");
 };
 
-//Word Generator
+let usedWords = []; // Array to store used words
+
 const generateWord = (optionValue) => {
   let optionsButtons = document.querySelectorAll(".options");
   optionsButtons.forEach((button) => {
@@ -609,7 +709,7 @@ const keysPressed = {
 
 // Function to solve the game
 function solveWord() {
-  const dashes = document.getElementsByClassName("dashes");
+  const dashes = document.getElementsByClassName("dashes"); 
   chosenWord.split("").forEach((char, index) => {
     dashes[index].innerText = char;
   });
