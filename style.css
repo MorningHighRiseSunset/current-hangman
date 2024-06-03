@@ -13,8 +13,8 @@
     max-width: 34em;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
+    top: 29%;
+    left: 46%;
     padding: 3em;
     border-radius: 0.6em;
     box-shadow: 0 1.2em 2.4em rgba(111, 85, 0, 0.25);
@@ -120,7 +120,7 @@
     padding: 5px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: white; /* Adjusted transparency for visibility */
+    background-color: rgba(255, 255, 255, 0.8); /* Adjusted transparency for visibility */
   }
 
 
@@ -169,14 +169,14 @@
 
 .correct-words-container {
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 0; /* Adjusted to touch the top of the screen */
   background-color: #f0f0f0;
   border: 1px solid #ccc;
   min-height: 50px;
   max-height: 300px;
   width: 300px;
   overflow-y: auto;
-}
+} 
 
 /* General button styling */
 button {
