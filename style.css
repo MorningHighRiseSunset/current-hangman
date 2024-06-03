@@ -202,6 +202,7 @@ button:hover {
 #streak {
   position: fixed;
   bottom: 10px;
+  width: 270px;
   right: 10px;
   background-color: #f9f9f9;
   border: 2px solid #ccc;
