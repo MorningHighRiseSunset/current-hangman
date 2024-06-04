@@ -2976,7 +2976,7 @@ window.onload = initializer;
 
 document.addEventListener("DOMContentLoaded", function() {
   const body = document.body;
-  body.style.backgroundImage = "url('https://64.media.tumblr.com/7288fb9c5a568fc033a233b1b5862886/27bd7103dd700c5a-de/s500x750/8e8261cf6e76222c6ca0ab275a5dcae5e2fbd7cb.gifv')";
+  body.style.backgroundImage = "url('https://media0.giphy.com/media/eFdILj4kspvr2/200w.gif?cid=6c09b952a4lydmsy2q91v355sfqicy5o4bsmqgkupgc37xos&ep=v1_gifs_search&rid=200w.gif&ct=g')";
   body.style.backgroundRepeat = "no-repeat";
   body.style.backgroundSize = "100% 100%"; // This will stretch the GIF to cover the entire body
   body.style.backgroundAttachment = "fixed"; // This will keep the background fixed during scrolling
