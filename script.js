@@ -2987,7 +2987,8 @@ document.addEventListener("DOMContentLoaded", function() {
       const backgrounds = [
           "https://64.media.tumblr.com/f1580c43a35318d575498d6049568d4c/27bd7103dd700c5a-b3/s500x750/9b2bef2d7734a7c3c0f3ab43522666a7a3d3adba.gif", // Add more GIF URLs as needed
           "https://64.media.tumblr.com/3f4c144b0e13323ba97a59a6761fbb78/50cd3b10801c5f9d-11/s500x750/0f14fd6578f201f12c9f4b0db476eecc3a3d7138.gif",
-          "https://64.media.tumblr.com/7288fb9c5a568fc033a233b1b5862886/27bd7103dd700c5a-de/s500x750/8e8261cf6e76222c6ca0ab275a5dcae5e2fbd7cb.gifv"
+          "https://64.media.tumblr.com/7288fb9c5a568fc033a233b1b5862886/27bd7103dd700c5a-de/s500x750/8e8261cf6e76222c6ca0ab275a5dcae5e2fbd7cb.gifv",
+          "https://media0.giphy.com/media/eFdILj4kspvr2/200w.gif?cid=6c09b952a4lydmsy2q91v355sfqicy5o4bsmqgkupgc37xos&ep=v1_gifs_search&rid=200w.gif&ct=g",
       ];
 
       // Get a random background from the list
