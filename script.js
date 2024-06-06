@@ -2984,7 +2984,7 @@ document.body.style.width = "100vw";
 document.body.style.height = "100vh";
 
 var tumbleweed = document.createElement('img');
-tumbleweed.src = "output-onlinegiftools.gif";
+tumbleweed.src = "output-onlinegiftools (1).gif";
 tumbleweed.alt = "Tumbleweed";
 tumbleweed.style.position = 'absolute';
 tumbleweed.style.top = '78%';
