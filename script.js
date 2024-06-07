@@ -2987,9 +2987,9 @@ var tumbleweed = document.createElement('img');
 tumbleweed.src = "output-onlinegiftools.gif";
 tumbleweed.alt = "Tumbleweed";
 tumbleweed.style.position = 'absolute';
-tumbleweed.style.top = '78%';
+tumbleweed.style.top = '76%';
 tumbleweed.style.left = '0';
-tumbleweed.style.width = '100px'; // Adjust the width as needed
+tumbleweed.style.width = '120px'; // Adjust the width as needed
 tumbleweed.style.height = 'auto'; // Maintain aspect ratio
 document.body.appendChild(tumbleweed);
 
@@ -2997,11 +2997,15 @@ var position = 0;
 var speed = 1; // Adjust speed as needed
 
 function moveTumbleweed() {
-    position += speed;
-    tumbleweed.style.left = position + 'px';
-    if (position < window.innerWidth) {
-        requestAnimationFrame(moveTumbleweed);
-    }
+  position += speed;
+  tumbleweed.style.left = position + 'px';
+  if (position < window.innerWidth) {
+      requestAnimationFrame(moveTumbleweed);
+  } else {
+      position = -tumbleweed.width; // Reset position to the left of the screen
+      tumbleweed.style.left = position + 'px'; // Set the initial position
+      moveTumbleweed(); // Restart the animation immediately
+  }
 }
 
 moveTumbleweed();
