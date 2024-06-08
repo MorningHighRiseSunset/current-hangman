@@ -2997,38 +2997,56 @@ var position = 0;
 var speed = 1; // Adjust speed as needed
 
 function moveTumbleweed() {
-  position += speed;
-  tumbleweed.style.left = position + 'px';
-  if (position < window.innerWidth) {
+  if (document.body.style.backgroundImage.includes("unity3d")) { // Check if the background contains the specific image URL
+    position += speed;
+    tumbleweed.style.left = position + 'px';
+    if (position < window.innerWidth) {
       requestAnimationFrame(moveTumbleweed);
-  } else {
+    } else {
       position = -tumbleweed.width; // Reset position to the left of the screen
       tumbleweed.style.left = position + 'px'; // Set the initial position
       moveTumbleweed(); // Restart the animation immediately
+    }
+
+    // Temporarily hide overflow during animation
+    document.body.style.overflow = 'hidden';
+
+    // Reset overflow to default after animation completes
+    if (position >= window.innerWidth) {
+      document.body.style.overflow = 'auto';
+    }
   }
 }
 
 moveTumbleweed();
 
 document.addEventListener("DOMContentLoaded", function() {
-    const body = document.body;
-    body.style.backgroundAttachment = "fixed"; // This will keep the background fixed during scrolling
+  const body = document.body;
+  body.style.backgroundAttachment = "fixed"; // This will keep the background fixed during scrolling
 
-    const changeBackgroundButton = document.createElement("button");
-    changeBackgroundButton.textContent = "Change Background";
-    changeBackgroundButton.id = "changeBackground";
-    document.body.appendChild(changeBackgroundButton);
+  const changeBackgroundButton = document.createElement("button");
+  changeBackgroundButton.textContent = "Change Background";
+  changeBackgroundButton.id = "changeBackground";
+  document.body.appendChild(changeBackgroundButton);
 
-    changeBackgroundButton.addEventListener("click", function() {
-        const backgrounds = [
-            "https://64.media.tumblr.com/f1580c43a35318d575498d6049568d4c/27bd7103dd700c5a-b3/s500x750/9b2bef2d7734a7c3c0f3ab43522666a7a3d3adba.gif",
-            "https://64.media.tumblr.com/3f4c144b0e13323ba97a59a6761fbb78/50cd3b10801c5f9d-11/s500x750/0f14fd6578f201f12c9f4b0db476eecc3a3d7138.gif",
-            "https://64.media.tumblr.com/7288fb9c5a568fc033a233b1b5862886/27bd7103dd700c5a-de/s500x750/8e8261cf6e76222c6ca0ab275a5dcae5e2fbd7cb.gifv"
-        ];
+  changeBackgroundButton.addEventListener("click", function() {
+      const backgrounds = [
+          "https://64.media.tumblr.com/f1580c43a35318d575498d6049568d4c/27bd7103dd700c5a-b3/s500x750/9b2bef2d7734a7c3c0f3ab43522666a7a3d3adba.gif",
+          "https://64.media.tumblr.com/3f4c144b0e13323ba97a59a6761fbb78/50cd3b10801c5f9d-11/s500x750/0f14fd6578f201f12c9f4b0db476eecc3a3d7138.gif",
+          "https://64.media.tumblr.com/7288fb9c5a568fc033a233b1b5862886/27bd7103dd700c5a-de/s500x750/8e8261cf6e76222c6ca0ab275a5dcae5e2fbd7cb.gifv",
+          "https://assetstorev1-prd-cdn.unity3d.com/key-image/eafd57a1-6f8f-44c8-ab16-f4da1c1ae7e7.jpg",
+      ];
 
-        const randomBackground = backgrounds[Math.floor(Math.random() * backgrounds.length)];
-        body.style.backgroundImage = `url('${randomBackground}')`;
-    });
+      const randomBackground = backgrounds[Math.floor(Math.random() * backgrounds.length)];
+      body.style.backgroundImage = `url('${randomBackground}')`;
+
+      if (randomBackground === "https://assetstorev1-prd-cdn.unity3d.com/key-image/eafd57a1-6f8f-44c8-ab16-f4da1c1ae7e7.jpg") {
+          tumbleweed.style.display = "block"; // Show the tumbleweed
+          moveTumbleweed(); // Move the tumbleweed
+      } else {
+          tumbleweed.style.display = "none"; // Hide the tumbleweed
+      }
+  });
 });
 
 
