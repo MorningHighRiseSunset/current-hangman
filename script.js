@@ -3035,6 +3035,7 @@ document.addEventListener("DOMContentLoaded", function() {
           "https://64.media.tumblr.com/3f4c144b0e13323ba97a59a6761fbb78/50cd3b10801c5f9d-11/s500x750/0f14fd6578f201f12c9f4b0db476eecc3a3d7138.gif",
           "https://64.media.tumblr.com/7288fb9c5a568fc033a233b1b5862886/27bd7103dd700c5a-de/s500x750/8e8261cf6e76222c6ca0ab275a5dcae5e2fbd7cb.gifv",
           "https://assetstorev1-prd-cdn.unity3d.com/key-image/eafd57a1-6f8f-44c8-ab16-f4da1c1ae7e7.jpg",
+          "https://64.media.tumblr.com/f1425570953bc273732265c1f11988bd/27bd7103dd700c5a-ae/s500x750/dfb40b16e39c3040efdf4db9e5db7f0b66f43243.gifv",
       ];
 
       const randomBackground = backgrounds[Math.floor(Math.random() * backgrounds.length)];
