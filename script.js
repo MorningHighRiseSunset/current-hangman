@@ -1453,7 +1453,6 @@ let options = {
 { word: "scry", definition: "To predict the future using crystal balls or other objects." },
 { word: "liner", definition: "Someone who fits a lining to something." },
   ],
-
   "Hard Mode": [
     { word: "crowdy", definition: "A thick gruel of oatmeal and milk or water." },
     { word: "understudies", definition: "A performer who understudies; a standby." },
@@ -2755,6 +2754,309 @@ let options = {
     { word: "kindest", definition: "Having a benevolent, courteous, friendly, generous, gentle, liberal, sympathetic, or warm-hearted nature or disposition, marked by consideration for – and service to – others." },
     { word: "fusible", definition: "Any substance that can be fused or melted." },
   ],
+  "Verdugo": [
+    {
+      word: "smooshes - smooshes",
+      definition: "To mash; or push; especially to push down or in; compress - Para machacar; o empujar; especialmente para empujar hacia abajo o hacia adentro; comprimir",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "replied - respuesta",
+      definition: "To give a written or spoken response, especially to a question, request, accusation or criticism; to answer. - Dar una respuesta escrita o hablada, especialmente a una pregunta, solicitud, acusación o crítica; responder.",
+      pronunciation: "/ɹɪˈplaɪd/"
+    },
+    {
+      word: "sheer - arrufo",
+      definition: "A sheer curtain or fabric. - Una cortina o tela transparente.",
+      pronunciation: "/ˈʃɪə/"
+    },
+    {
+      word: "postponed - Total de productos aplazados",
+      definition: "To delay or put off an event, appointment etc. - Para retrasar o posponer un evento, cita, etc.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "adopter - consumidores, clientes, usuarios",
+      definition: "One who adopts - Aquel que adopta",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "refocuses - reenfoca",
+      definition: "To focus on something else - Centrarse en otra cosa",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "shriveling - marchitamiento",
+      definition: "To collapse inward; to crumble. - Colapsar hacia adentro; desmoronarse.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "inhumane - inhumano",
+      definition: "Lacking pity or compassion for misery and suffering; cruel, unkind, not humane. - Falta de piedad o compasión por la miseria y el sufrimiento; cruel, cruel, no humano.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "perissodactyls - perisodáctilos",
+      definition: "Any ungulate mammal with an odd number of toes and belonging to the Perissodactyla, including the horses, zebra, and rhinoceros. - Cualquier mamífero ungulado con un número impar de dedos de los pies y perteneciente a los Perissodactyla, incluidos los caballos, cebras y rinocerontes.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "bushwhacker - bushwhacker",
+      definition: "One who travels through the woods, off the designated path. - Uno que viaja a través del bosque, fuera del camino designado.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "teapoys - teapoys",
+      definition: "Originally, a three-legged decorative stand or table; sometimes also having a tea chest for holding a tea service. - Originalmente, un soporte o mesa decorativa de tres patas; a veces también tiene un cofre de té para celebrar un servicio de té.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "plaintive - lastimero",
+      definition: "Sounding sorrowful, mournful or melancholic. - Suena triste, afligido o melancólico.",
+      pronunciation: "/ˈpleɪntɪv/"
+    },
+    {
+      word: "coati - Pizote",
+      definition: "Any of several omnivorous mammals, of the genus Nasua or Nasuella, in order Carnivora, that live in the range from southern United States to northern Argentina. - Cualquiera de varios mamíferos omnívoros, del género Nasua o Nasuella, en orden Carnivora, que viven en el rango desde el sur de Estados Unidos hasta el norte de Argentina.",
+      pronunciation: "/kəʊˈɑːti/"
+    },
+    {
+      word: "speiss - speiss",
+      definition: "A mixed arsenide of iron (and cobalt, nickel, and copper) produced during the smelting of lead - Arseniuro mixto de hierro (y cobalto, níquel y cobre) producido durante la fundición del plomo",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "emotionalizing - emocionante",
+      definition: "To give something an emotional quality. - Darle a algo una cualidad emocional.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "accused - se lo acusa.",
+      definition: "To find fault with, blame, censure - Para encontrar fallas, culpar, censurar",
+      pronunciation: "/ə.ˈkjuzd/"
+    },
+    {
+      word: "primp - Acicalado",
+      definition: "To spend time improving one's appearance, often in front of a mirror. - Dedicar tiempo a mejorar la apariencia, a menudo frente a un espejo.",
+      pronunciation: "/pɹɪmp/"
+    },
+    {
+      word: "netter - redero",
+      definition: "One who nets (in any sense), or who uses a net. - Uno que usa redes (en cualquier sentido), o que usa una red.",
+      pronunciation: "/ˈnɛtə/"
+    },
+    {
+      word: "luteous - lúteo",
+      definition: "Yellowish - Amarillo",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "contessas - contessas",
+      definition: "A countess, often specifically an Italian countess - Una condesa, a menudo específicamente una condesa italiana",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "haycocks - haycocks",
+      definition: "A small, conical stack of hay left in a field to dry before adding to a haystack - Una pequeña pila cónica de heno que queda en un campo para que se seque antes de añadirla a un pajar",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "punchy - Golpeador",
+      definition: "Having a punch; effective; forceful; spirited; vigorous. - Tener un puñetazo; efectivo; contundente; enérgico; vigoroso.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "misogynist - Misoginia",
+      definition: "One who professes misogyny; a hater of women. - Una que profesa misoginia; una que odia a las mujeres.",
+      pronunciation: "/mɪˈsɒdʒ.ən.ɪst/"
+    },
+    {
+      word: "idyls - idyls",
+      definition: "Any poem or short written piece composed in the style of Theocritus' short pastoral poems, the Idylls. - Cualquier poema o pieza escrita corta compuesta al estilo de los poemas pastorales cortos de Teócrito, los Idilos.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "amalgamation - amalgamación",
+      definition: "The process of amalgamating; a mixture, merger or consolidation. - El proceso de amalgamación; una mezcla, fusión o consolidación.",
+      pronunciation: "/əˌmælɡəˈmeɪʃən/"
+    },
+    {
+      word: "purpling - púrpura",
+      definition: "To turn purple in colour. - Para volverse de color púrpura.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "duel - duelo",
+      definition: "Arranged, regular combat between two private persons, often over a matter of honor. - Combate arreglado y regular entre dos personas privadas, a menudo por una cuestión de honor.",
+      pronunciation: "/ˈdjuːəl/"
+    },
+    {
+      word: "tetchy - tetchy",
+      definition: "Easily annoyed or irritated; peevish, testy or irascible. - Fácilmente molesto o irritado; malhumorado, irritable o irascible.",
+      pronunciation: "/ˈtɛtʃi/"
+    },
+    {
+      word: "sab - SAB",
+      definition: "A saboteur, especially of fox hunts. - Un saboteador, especialmente de la caza del zorro.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "firm - firme",
+      definition: "A business partnership; the name under which it trades. - Una sociedad comercial; el nombre con el que opera.",
+      pronunciation: "/fɜːm/"
+    },
+    {
+      word: "blacktopping - blacktopping",
+      definition: "To pave with blacktop. - Para pavimentar con blacktop.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "fluffed - esponjado",
+      definition: "To make something fluffy. - Para hacer algo esponjoso.",
+      pronunciation: "/flʌft/"
+    },
+    {
+      word: "unfocussed - desenfocado",
+      definition: "Not focused - No se centró",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "claptrap - claptrap",
+      definition: "Empty verbiage or nonsense. - Verborrea vacía o tonterías.",
+      pronunciation: "/ˈklæpˌtɹæp/"
+    },
+    {
+      word: "ineradicable - inerradicable",
+      definition: "Not able to be eradicated; (of a root, plant, etc.) too deep to remove. - No se puede erradicar; (de una raíz, planta, etc.) demasiado profunda para eliminarla.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "unlawful - ilegal, ilícito, ilegítimo",
+      definition: "Prohibited; not permitted by law (either civil or criminal law; see illegal). - Prohibido; no permitido por la ley (ya sea civil o penal; ver ilegal).",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "supplicating - 862.",
+      definition: "To humble oneself before (another) in making a request; to beg or beseech. - Humillarse ante (otro) al hacer una petición; rogar o suplicar.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "cabinetmaker - ebanista",
+      definition: "A skilled woodworker who makes high-quality wooden furniture - Un carpintero experto que fabrica muebles de madera de alta calidad",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "amateurs - Amateur",
+      definition: "A lover of something. - Amante de algo.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "apotropaic - Efecto apotropaico",
+      definition: "An agent intended to ward off evil. - Un agente destinado a alejar el mal.",
+      pronunciation: "/ˌæpətɹəˈpeɪ.ɪk/"
+    },
+    {
+      word: "rockets - cohetes",
+      definition: "A rocket engine. - cohete",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "windflowers - flores de viento",
+      definition: "An early spring flowering species of the family Ranunculaceae, Anemone nemorosa. - Especie de floración primaveral temprana de la familia Ranunculaceae, Anemone nemorosa.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "toiletry - artículos de tocador",
+      definition: "Any item used for personal hygiene or grooming. - Cualquier artículo utilizado para la higiene personal o el aseo personal.",
+      pronunciation: "/ˈtɔɪlɪtɹi/"
+    },
+    {
+      word: "beggarly - pobre",
+      definition: "In the manner of a beggar; poverty-stricken; mean; poor; contemptible. - A la manera de un mendigo; pobre; mezquino; pobre; despreciable.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "availing - haciendo uso de",
+      definition: "To turn to the advantage of. - Para volverse a la ventaja de.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "peccadilloes - pecadillos",
+      definition: "A small flaw or sin. - Un pequeño defecto o pecado.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "solidifies - Solidificación",
+      definition: "To make solid; convert into a solid body. - Para hacer sólido; convertir en un cuerpo sólido.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "catfights - peleas de gatos",
+      definition: "A fight between cats. - Una pelea entre gatos.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "imprisoning - encarcelamiento",
+      definition: "To put in or as if in prison; confine. - Para poner en o como si en la cárcel; confinar.",
+      pronunciation: "/ɪmˈpɹɪzənɪŋ/"
+    },
+    {
+      word: "sparer - sparer",
+      definition: "Scant; not abundant or plentiful. - Escasa; no abundante ni abundante.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "songwriting - composición",
+      definition: "(authorship) The work of a songwriter. - (autoría) El trabajo de un compositor.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "vernation - vernación",
+      definition: "The appearance of new leaves. - La aparición de nuevas hojas.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "conventicles - conventicles",
+      definition: "A secret, unauthorized or illegal religious meeting. - Una reunión religiosa secreta, no autorizada o ilegal.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "dirges - dirges",
+      definition: "A mournful poem or piece of music composed or performed as a memorial to a dead person. - Un poema o pieza musical triste compuesta o interpretada como un monumento a una persona muerta.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "still - todavía",
+      definition: "A period of calm or silence. - Un momento de calma o silencio.",
+      pronunciation: "/stɪl/"
+    },
+    {
+      word: "mozzarella - Queso Mozzarella",
+      definition: "Soft Italian cheese made from cow's or buffalo's milk and commonly used as a pizza topping and in salads etc. - Queso suave italiano hecho de leche de vaca o de búfalo y comúnmente utilizado como cobertura de pizza y en ensaladas, etc.",
+      pronunciation: "/mɒt.sə.ˈɹɛl.ə/"
+    },
+    {
+      word: "omniranges - omniranges",
+      definition: "A short-range radio navigation system for aircraft, based on a network of fixed radio beacons on the ground. - Un sistema de radionavegación de corto alcance para aeronaves, basado en una red de radiobalizas fijas en tierra.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "predicaments - Predicaments",
+      definition: "A definite class, state or condition. - Una clase, estado o condición definida.",
+      pronunciation: "/No pronunciation available/"
+    },
+    {
+      word: "channels - canales",
+      definition: "The physical confine of a river or slough, consisting of a bed and banks. - El confinamiento físico de un río o arroyo, que consiste en un lecho y orillas.",
+      pronunciation: "/ˈtʃænəlz/"
+    },
+    {
+      word: "teddies - body",
+      definition: "By extension, any stuffed toy. - Por extensión, cualquier peluche.",
+      pronunciation: "/No pronunciation available/"
+    },
+    
+  ]
 };
 
 //count
@@ -3035,7 +3337,6 @@ document.addEventListener("DOMContentLoaded", function() {
           "https://64.media.tumblr.com/3f4c144b0e13323ba97a59a6761fbb78/50cd3b10801c5f9d-11/s500x750/0f14fd6578f201f12c9f4b0db476eecc3a3d7138.gif",
           "https://64.media.tumblr.com/7288fb9c5a568fc033a233b1b5862886/27bd7103dd700c5a-de/s500x750/8e8261cf6e76222c6ca0ab275a5dcae5e2fbd7cb.gifv",
           "https://assetstorev1-prd-cdn.unity3d.com/key-image/eafd57a1-6f8f-44c8-ab16-f4da1c1ae7e7.jpg",
-          "https://64.media.tumblr.com/f1425570953bc273732265c1f11988bd/27bd7103dd700c5a-ae/s500x750/dfb40b16e39c3040efdf4db9e5db7f0b66f43243.gifv",
       ];
 
       const randomBackground = backgrounds[Math.floor(Math.random() * backgrounds.length)];
