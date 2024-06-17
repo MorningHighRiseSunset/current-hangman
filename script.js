@@ -3075,7 +3075,7 @@ const initializer = () => {
     letterContainer.append(button);
   }
 
-  const additionalChars = ["'", "-", "ã", "ṽ", "ñ"];
+  const additionalChars = ["'", "-", "ã", "ṽ", "ñ", "ó", "ú", "í", "é"];
   additionalChars.forEach(char => {
     let button = document.createElement("button");
     button.classList.add("letters");
