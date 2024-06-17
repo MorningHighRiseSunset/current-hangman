@@ -2756,366 +2756,240 @@ let options = {
   ],
   "Verdugo": [
     {
-      word: "lean",
-      definition: "(of an object taller than its width and depth) An inclination away from the vertical. - (esbelto) (de un objeto más alto que su ancho y profundidad) Una inclinación lejos de la vertical.",
-      pronunciation: "/liːn/"
-    },
-    {
-      word: "punt",
-      definition: "A pontoon; a narrow shallow boat propelled by a pole. - (libra irlandesa) Un pontón; un bote estrecho y poco profundo propulsado por un poste.",
-      pronunciation: "/pʌnt/"
-    },
-    {
-      word: "swart",
-      definition: "Black or dark dyestuff; something of a certain swart; something of a certain ocker. - (Swart) Colorante negro u oscuro; algo así como un cierto swart; algo así como un cierto ocker.",
-      pronunciation: "/swɔː(ɹ)t/"
-    },
-    {
-      word: "slops",
-      definition: "A loose outer garment; a jacket or overall. - (Aguachirle) Una prenda exterior suelta; una chaqueta o un mono.",
+      word: "obsesiones",
+      definition: "A compulsive or irrational preoccupation. - (Una preocupación compulsiva o irracional.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "fight",
-      definition: "To contend in physical conflict, either singly or in war, battle etc. - (pelea (hallazgo)) Para contender en conflictos físicos, ya sea individualmente o en guerra, batalla, etc.",
-      pronunciation: "/[fʌɪt]/"
+      word: "apocalíptico",
+      definition: "One who predicts apocalypse. - (Uno que predice el apocalipsis.)",
+      pronunciation: "/əˈpɒ.kə.lɪp.tɪk/"
     },
     {
-      word: "student",
-      definition: "A person who studies or learns about a particular subject. - (Alumno) Una persona que estudia o aprende sobre un tema en particular.",
-      pronunciation: "/ˈstjuː.dənt/"
-    },
-    {
-      word: "pedicab",
-      definition: "A tricycle having a hooded cab to seat paying passengers. - (triciclo) Un triciclo con una cabina con capucha para sentar a los pasajeros que pagan.",
-      pronunciation: "/ˈpɛdiˌkæb/"
-    },
-    {
-      word: "rosaries",
-      definition: "Prayer beads, a string of beads used to keep track of repetitions in prayer, particularly in the Roman Catholic Marian prayer 'Hail Mary' (Ave Maria) - (rosarios) Cuentas de oración, una cadena de cuentas utilizadas para realizar un seguimiento de las repeticiones en la oración, particularmente en la oración mariana católica romana 'Ave María' (Ave María)",
+      word: "mentalista",
+      definition: "A practitioner of mentalism. - (Un practicante del mentalismo.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "preconcert",
-      definition: "Something concerted or arranged beforehand; a previous agreement. - (preconcierto) Algo concertado o arreglado de antemano; un acuerdo previo.",
+      word: "escalofríos",
+      definition: "A moderate, but uncomfortable and penetrating coldness. - (Una frialdad moderada, pero incómoda y penetrante.)",
+      pronunciation: "/tʃɪlz/"
+    },
+    {
+      word: "prevención",
+      definition: "The act of preventing or hindering; obstruction of action, access, or approach; thwarting. - (El acto de prevenir u obstaculizar; obstrucción de la acción, el acceso o el enfoque; frustrar.)",
+      pronunciation: "/pɹɪˈvɛnʃən/"
+    },
+    {
+      word: "regenerado",
+      definition: "The calling back of a hawk. - (La llamada de un halcón.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "wiverns",
-      definition: "A draconian creature possessing wings, only two legs and usually a barbed tail. - (wiverns) Una criatura draconiana que posee alas, solo dos patas y generalmente una cola de púas.",
+      word: "malestar",
+      definition: "Mental or bodily distress. - (Angustia mental o corporal.)",
+      pronunciation: "/dɪsˈkʌmfət/"
+    },
+    {
+      word: "forjado",
+      definition: "To shape a metal by heating and hammering. - (Para dar forma a un metal calentándolo y martillándolo.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "publicising",
-      definition: "To make widely known to the public. - (publicitar) Dar a conocer ampliamente al público.",
+      word: "cereales",
+      definition: "A type of grass (such as wheat, rice or oats) cultivated for its edible grains. - (Un tipo de hierba (como trigo, arroz o avena) cultivada por sus granos comestibles.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "adieu",
-      definition: "A farewell, a goodbye; especially a fond farewell, or a lasting or permanent farewell. - (adiós) Una despedida, una despedida; especialmente una despedida cariñosa, o una despedida duradera o permanente.",
-      pronunciation: "/əˈdjuː/"
-    },
-    {
-      word: "holdout",
-      definition: "One who refuses to give consent to an agreement in the hope of an improved offer; one who holds out; one who clings to a cause that has been mostly abandoned. - (datos de exclusión) Uno que se niega a dar su consentimiento a un acuerdo con la esperanza de una oferta mejorada; uno que se aferra a una causa que ha sido abandonada en su mayoría.",
+      word: "potenciación",
+      definition: "Improvement. - (Mejora.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "pigmies",
-      definition: "(often capitalized) A member of one of various Ancient Equatorial African tribal peoples, notable for their very short stature. - (pigmeos) (a menudo en mayúscula) Miembro de uno de los diversos pueblos tribales del antiguo África Ecuatorial, notable por su baja estatura.",
+      word: "hematoma",
+      definition: "A swelling of blood, usually clotted, which forms as a result of broken blood vessels. - (Hinchazón de la sangre, generalmente coagulada, que se forma como resultado de la rotura de vasos sanguíneos.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "mudders",
-      definition: "A person (especially an entomologist) or animal that catches moths. - (mudders) Una persona (especialmente un entomólogo) o animal que atrapa polillas.",
+      word: "conciertos",
+      definition: "An amount by which something or someone is covered. - (Una cantidad por la cual algo o alguien está cubierto.)",
+      pronunciation: "/ˈkʌv.əɹ.ɪdʒ/"
+    },
+    {
+      word: "besos",
+      definition: "To touch with the lips or press the lips against, usually to show love or affection or passion, or as part of a greeting. - (Para tocar con los labios o presionar los labios contra, por lo general para mostrar amor o afecto o pasión, o como parte de un saludo.)",
+      pronunciation: "/ˈkɪsɪz/"
+    },
+    {
+      word: "chantaje",
+      definition: "The extortion of money by threats of public accusation, exposure, or censure. - (La extorsión de dinero mediante amenazas de acusación pública, exposición o censura.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "bank",
-      definition: "An institution where one can place and borrow money and take care of financial affairs. - (el banco) Una institución donde uno puede colocar y pedir dinero prestado y ocuparse de los asuntos financieros.",
-      pronunciation: "/bæŋk/"
+      word: "Varón",
+      definition: "One of the male (masculine) sex or gender. - (Uno del sexo o género masculino (masculino).)",
+      pronunciation: "/meɪl/"
     },
     {
-      word: "doglegs",
-      definition: "A sharp bend in the fairway (before the hole) - (doglegs) Una curva brusca en el fairway (antes del hoyo)",
+      word: "gris",
+      definition: "Having a color. - (Tener un color.)",
+      pronunciation: "/ɡɹeɪ/"
+    },
+    {
+      word: "homofobia",
+      definition: "Fear of, dislike of or prejudice against homosexuals. - (Miedo, disgusto o prejuicio contra los homosexuales.)",
+      pronunciation: "/ˌhɒ.məˈfəʊ.bi.ə/"
+    },
+    {
+      word: "pelletizada",
+      definition: "To form into pellets. - (Para formar pellets.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "deplane",
-      definition: "To disembark from an airplane. - (deplane) Desembarcar de un avión.",
+      word: "paranoico",
+      definition: "A psychotic disorder characterized by delusions of persecution, conspiracy and perceived threat against the person, often associated with false accusations and general mistrust of others - (Un trastorno psicótico caracterizado por delirios de persecución, conspiración y percepción de amenaza contra la persona, a menudo asociado con acusaciones falsas y desconfianza general hacia los demás)",
+      pronunciation: "/ˌpæɹ.əˈnɔɪ.ə/"
+    },
+    {
+      word: "Netherworld",
+      definition: "The place to which one's spirit descends upon death, conceived as below the surface of the earth. - (El lugar al que desciende el espíritu al morir, concebido como debajo de la superficie de la tierra.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "crestings",
-      definition: "An ornamental finish on the top of a wall or ridge of a roof. - (crestings) Un acabado ornamental en la parte superior de una pared o cresta de un techo.",
-      pronunciation: "/ˈkɹɛstɪŋz/"
+      word: "hidrofóbico",
+      definition: "Of, or having, hydrophobia (rabies). - (De, o tener, hidrofobia (rabia).)",
+      pronunciation: "/haɪdɹəˈfəʊbɪk/"
     },
     {
-      word: "hussy",
-      definition: "A housewife or housekeeper. - (hussy) Un ama de casa o ama de llaves.",
-      pronunciation: "/ˈhʌsi/"
-    },
-    {
-      word: "oestrus",
-      definition: "A biting fly of the genus Oestrus; a botfly. - (ciclo estral) Una mosca mordaz del género Oestrus; una mosca bot.",
-      pronunciation: "/ˈiːstɹəs/"
-    },
-    {
-      word: "stereoscopic",
-      definition: "Of or relating to stereoscopy; three-dimensional. - (Estereoscopía) Perteneciente o relativo a la estereoscopia; tridimensional.",
-      pronunciation: "/ˌstɛr.i.ə.ˈskɑː.pɪk/"
-    },
-    {
-      word: "massifs",
-      definition: "A principal mountain mass. - (macizos) Una masa montañosa principal.",
+      word: "reflectividad",
+      definition: "The quality of being reflective. - (La cualidad de ser reflexivo.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "deworms",
-      definition: "To cause an animal to excrete any worms in the digestive tract by the administration of drugs. - (desparasitantes) Hacer que un animal excrete cualquier gusano en el tracto digestivo mediante la administración de medicamentos.",
+      word: "escaleras mecánicas",
+      definition: "Anything that escalates. - (Cualquier cosa que se intensifique.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "sanderlings",
-      definition: "A small wading bird, Calidris alba, that breeds in the Arctic and winters on sandy shores and estuaries around the world. A type of stint. - (sanderlings) Un pequeño ave zancuda, Calidris alba, que se reproduce en el Ártico e invierte en costas arenosas y estuarios de todo el mundo. Un tipo de período.",
+      word: "recursividad",
+      definition: "The act of recurring. - (El acto de recurrir.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "blushes",
-      definition: "An act of blushing; a red glow on the face caused by shame, modesty, etc. - (Rubores) Un acto de rubor; un resplandor rojo en la cara causado por la vergüenza, la modestia, etc.",
-      pronunciation: "/ˈblʌʃɪz/"
-    },
-    {
-      word: "optimized",
-      definition: "(originally intransitive) To act optimistically or as an optimist. - (optimizado) (originalmente intransitivo) Actuar con optimismo o como un optimista.",
+      word: "ignorando",
+      definition: "To deliberately not listen or pay attention to. - (No escuchar ni prestar atención deliberadamente.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "segment",
-      definition: "A length of some object. - (segmento) La longitud de algún objeto.",
+      word: "haciendo",
+      definition: "(auxiliary) A syntactic marker. - ((auxiliar) Un marcador sintáctico.)",
+      pronunciation: "/ˈduːɪŋ/"
+    },
+    {
+      word: "Sloes",
+      definition: "The small, bitter, wild fruit of the blackthorn (Prunus spinosa). - (El fruto pequeño, amargo y silvestre del espino negro (Prunus spinosa).)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "jeering",
-      definition: "(jeer at) To utter sarcastic or mocking comments; to speak with mockery or derision; to use taunting language. - (burlas) (se burlan) Para pronunciar comentarios sarcásticos o burlones; para hablar con burla o escarnio; para usar un lenguaje burlón.",
+      word: "colmillo",
+      definition: "Any member of Caninae, the only living subfamily of Canidae. - (Cualquier miembro de Caninae, la única subfamilia viva de Canidae.)",
+      pronunciation: "/kəˈnaɪn/"
+    },
+    {
+      word: "utilitarios",
+      definition: "The state or condition of being useful; usefulness. - (El estado o condición de ser útil; utilidad.)",
+      pronunciation: "/juːˈtɪl.ɪ.ti/"
+    },
+    {
+      word: "discriminadores",
+      definition: "A person who discriminates or differentiates. - (Una persona que discrimina o diferencia.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "forebear",
-      definition: "To keep away from; to avoid; to abstain from. - (Ancestro) Mantenerse alejado de; evitar; abstenerse de.",
+      word: "facultativa",
+      definition: "(behaviour) Restriction. - ((comportamiento) Restricción.)",
+      pronunciation: "/ɹɪˈzɜːv/"
+    },
+    {
+      word: "prostitutas",
+      definition: "Engaging in sexual activity with another person for pay. - (Participar en actividades sexuales con otra persona a cambio de un pago.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "valedictions",
-      definition: "A speech made when leaving or parting company. - (valedictions) Un discurso pronunciado al salir o despedirse de la empresa.",
+      word: "brillando",
+      definition: "To emit light. - (Para emitir luz.)",
+      pronunciation: "/ˈʃaɪnɪŋ/"
+    },
+    {
+      word: "Fiestas",
+      definition: "An event or community gathering, usually staged by a local community, which centers on some theme, sometimes on some unique aspect of the community. - (Un evento o reunión comunitaria, generalmente organizada por una comunidad local, que se centra en algún tema, a veces en algún aspecto único de la comunidad.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "conquistadors",
-      definition: "A conqueror, but especially one of the Spanish soldiers that invaded Central and South America in the 16th century and defeated the Incas and Aztecs. - (Conquistadores) Un conquistador, pero sobre todo uno de los soldados españoles que invadieron América Central y del Sur en el siglo XVI y derrotaron a los incas y aztecas.",
+      word: "simulados",
+      definition: "To model, replicate, duplicate the behavior, appearance or properties of. - (Modelar, replicar, duplicar el comportamiento, apariencia o propiedades de.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "oomiaks",
-      definition: "A large, open boat made of skins stretched over a wooden frame that is propelled by paddles; used by the Eskimos for transportation. - (oomiaks) Un gran bote abierto hecho de pieles estiradas sobre un marco de madera que es propulsado por remos; utilizado por los esquimales para el transporte.",
+      word: "bloqueo",
+      definition: "A substantial, often approximately cuboid, piece of any substance. - (Una pieza sustancial, a menudo aproximadamente cuboide, de cualquier sustancia.)",
+      pronunciation: "/blɒk/"
+    },
+    {
+      word: "piretroides",
+      definition: "Any of several synthetic insecticides having a structure based on pyrethrin. - (Cualquiera de varios insecticidas sintéticos que tienen una estructura a base de piretrina.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "chordate",
-      definition: "A member of the phylum Chordata; numerous animals having a notochord at some stage of their development; in vertebrates this develops into the spine - (cordados) Un miembro del filo Chordata; numerosos animales que tienen un notocordio en alguna etapa de su desarrollo; en los vertebrados esto se desarrolla en la columna vertebral",
-      pronunciation: "/ˈkɔːdeɪt/"
-    },
-    {
-      word: "redwood",
-      definition: "(USDA-preferred term) The species Sequoia sempervirens. - (madera roja) (Término preferido por el USDA) La especie Sequoia sempervirens.",
+      word: "sastrería",
+      definition: "To make, repair, or alter clothes. - (Para hacer, reparar o alterar la ropa.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "slumbering",
-      definition: "To be in a very light state of sleep, almost awake. - (dormido) Estar en un estado de sueño muy ligero, casi despierto.",
+      word: "ordeño",
+      definition: "To express milk from (a mammal, especially a cow). - (Extraer leche de (un mamífero, especialmente una vaca).)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "kiwifruit",
-      definition: "A Chinese gooseberry vine fruit, having a hairy brown skin and dark green (or in the case of the kiwi fruit gold, yellow) flesh with fine black seeds, almost always varieties of Actinidia deliciosa. - (kiwis,) Un fruto de la vid de grosella china, de piel marrón peluda y pulpa verde oscuro (o en el caso del kiwi dorado, amarillo) con finas semillas negras, casi siempre variedades de Actinidia deliciosa.",
+      word: "contactado",
+      definition: "To touch; to come into physical contact with. - (Tocar; entrar en contacto físico con.)",
+      pronunciation: "/kənˈtæktɪd/"
+    },
+    {
+      word: "Mike",
+      definition: "A microphone. - (Un micrófono)",
+      pronunciation: "/ˈmaɪk/"
+    },
+    {
+      word: "panqueques",
+      definition: "A thin batter cake fried in a pan or on a griddle in oil or butter. - (Un pastel de masa fina frito en una sartén o en una plancha en aceite o mantequilla.)",
+      pronunciation: "/ˈpænkeɪks/"
+    },
+    {
+      word: "renuncia",
+      definition: "The act of waiving, or not insisting on, some right, claim, or privilege. - (El acto de renunciar o no insistir en algún derecho, reclamo o privilegio.)",
+      pronunciation: "/ˈweɪ.və(ɹ)/"
+    },
+    {
+      word: "Beaus",
+      definition: "A man with a reputation for fine dress and etiquette; a dandy or fop. - (Un hombre con una reputación de buen vestir y etiqueta; un dandy o fop.)",
+      pronunciation: "/bəʊz/"
+    },
+    {
+      word: "restablecimiento",
+      definition: "The act or process of regaining or repossession of something lost. - (El acto o proceso de recuperar o recuperar algo perdido.)",
+      pronunciation: "/ɹəˈkʌvəɹi/"
+    },
+    {
+      word: "despidos",
+      definition: "The act of sending someone away. - (El acto de enviar a alguien lejos.)",
       pronunciation: "/No pronunciation available/"
     },
     {
-      word: "greenhouses",
-      definition: "A building used to grow plants, particularly one with large glass windows or plastic sheeting to trap heat from sunlight even in intemperate seasons or climates. - (invernaderos) Un edificio utilizado para cultivar plantas, particularmente uno con grandes ventanas de vidrio o láminas de plástico para atrapar el calor de la luz solar incluso en estaciones o climas intemperantes.",
-      pronunciation: "/No pronunciation available/"
+      word: "productos",
+      definition: "A commodity offered for sale. - (Una mercancía ofrecida a la venta.)",
+      pronunciation: "/ˈpɹɒd.əkts/"
     },
-    {
-      word: "undemocratic",
-      definition: "Not democratic - (antidemocrático) No democrático",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "interdominion",
-      definition: "Between dominions of the British Empire. - (interdominio) Entre dominios del Imperio Británico.",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "roadwork",
-      definition: "The construction or maintenance done to roads. - (Carretera maldita) La construcción o mantenimiento de carreteras.",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "degausses",
-      definition: "To reduce or eliminate the magnetic field from (the hull of a ship, or a computer monitor, etc.). - (desmagnetizaciones) Reducir o eliminar el campo magnético de (el casco de un barco, o un monitor de ordenador, etc.).",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "abscise",
-      definition: "To cut off. - (absciso) Para cortar.",
-      pronunciation: "/əbˈsaɪz/"
-    },
-    {
-      word: "julienne",
-      definition: "A garnish of vegetables cut into long, thin strips. - (Pluma ) Una guarnición de verduras cortadas en tiras largas y finas.",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "foreran",
-      definition: "To run in front. - (foreran) Para correr delante.",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "fermenting",
-      definition: "To react, using fermentation; especially to produce alcohol by aging or by allowing yeast to act on sugars; to brew. - (Fermentación) Para reaccionar, utilizando la fermentación; especialmente para producir alcohol por envejecimiento o permitiendo que la levadura actúe sobre los azúcares; para elaborar cerveza.",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "krummhorn",
-      definition: "A mediaeval and Renaissance wind instrument. - (krummhorn) Instrumento de viento medieval y renacentista.",
-      pronunciation: "/ˈkɹʌmhɔːn/"
-    },
-    {
-      word: "powering",
-      definition: "To provide power for (a mechanical or electronic device). - (potenciando) Proporcionar energía para (un dispositivo mecánico o electrónico).",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "taqueria",
-      definition: "A restaurant specializing in tacos and other Mexican food. - (Taqueria) Restaurante especializado en tacos y otra comida mexicana.",
-      pronunciation: "/ˌtɑkəˈɹiːə/"
-    },
-    {
-      word: "unsewn",
-      definition: "Not sewn. - (sin coser) No cosido.",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "bleaching",
-      definition: "To treat with bleach, especially so as to whiten (fabric, paper, etc.) or lighten (hair). - (blanqueador) Para tratar con lejía, especialmente para blanquear (tela, papel, etc.) o aclarar (cabello).",
-      pronunciation: "/ˈbliːtʃɪŋ/"
-    },
-    {
-      word: "sulfides",
-      definition: "Any compound of sulfur and a metal or other electropositive element or group. - (Sulfuros) Cualquier compuesto de azufre y un metal u otro elemento o grupo electropositivo.",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "fattiest",
-      definition: "Containing, composed of, or consisting of fat. - (más gordo) Que contengan, estén compuestos o consistan en grasa.",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "petcock",
-      definition: "A small valve, spout, or faucet operated by hand, usually used to release pressure or drain fluid. - (petcock) Una pequeña válvula, boquilla o grifo operado a mano, que generalmente se usa para liberar presión o drenar líquido.",
-      pronunciation: "/ˈpɛtkɒk/"
-    },
-    {
-      word: "ailurophile",
-      definition: "A person with ailurophilia; a cat-lover. - (ailurófilo) Una persona con ailurofilia; un amante de los gatos.",
-      pronunciation: "/aɪˈljʊəɹəˌfaɪl/"
-    },
-    {
-      word: "pueblo",
-      definition: "A community in Spain or Spanish America, especially one of Pueblo Indians living in a stone or adobe multi-storey building. - (pueblo) Una comunidad en España o Hispanoamérica, especialmente uno de los indios Pueblo que viven en un edificio de varios pisos de piedra o adobe.",
-      pronunciation: "/ˈpwɛbləʊ/"
-    },
-    {
-      word: "tegs",
-      definition: "A sheep (originally a ewe) that is one to two years old - (tegs) Una oveja (originalmente una oveja) que tiene de uno a dos años",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "torquing",
-      definition: "To twist or turn something. - (aplicación de un par) Para torcer o girar algo.",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "viscounts",
-      definition: "A member of the peerage, above a baron but below a count or earl. - (viscounts) Miembro de la nobleza, por encima de un barón pero por debajo de un conde o conde.",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "obelising",
-      definition: "To mark (a written or printed passage) with an obelus; to judge as spurious or doubtful. - (obelising) Marcar (un pasaje escrito o impreso) con un obelus; juzgar como espurio o dudoso.",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "neuromata",
-      definition: "A tumour composed of nerve cells. - (neuromata) Tumor compuesto por células nerviosas.",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "gherao",
-      definition: "A protest in which a group of people surrounds a politician, building, etc. until demands are met. - (gherao) Una protesta en la que un grupo de personas rodea a un político, edificio, etc. hasta que se cumplen las demandas.",
-      pronunciation: "/ɡɛˈɹaʊ/"
-    },
-    {
-      word: "ringtail",
-      definition: "A ring-tailed animal, notably: - (Basárides) Un animal de cola anillada, en particular:",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "fulmars",
-      definition: "Either of two species of pelagic seabird in the genus Fulmarus, Fulmarus glacialis and F. glacialoides, which breed on cliffs. - (Procellariidae) Cualquiera de las dos especies de aves marinas pelágicas del género Fulmarus, Fulmarus glacialis y F. glacialoides, que se reproducen en los acantilados.",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "pentyl",
-      definition: "Any of several isomeric univalent hydrocarbon radicals, C5H11, formally derived from pentane by the loss of a hydrogen atom. - (pentilo) Cualquiera de varios radicales hidrocarbonados univalentes isoméricos, C5H11, derivados formalmente del pentano por la pérdida de un átomo de hidrógeno.",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "differentiated",
-      definition: "To show, or be the distinction between two things. - (bien diferenciado) Para mostrar, o ser la distinción entre dos cosas.",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "dedicator",
-      definition: "One who dedicates. - (dedicator) Uno que se dedica.",
-      pronunciation: "/ˈdɛdɪˌkeɪtə(ɹ)/"
-    },
-    {
-      word: "refereed",
-      definition: "To act as a referee. - (Revisión por pares) Actuar como árbitro.",
-      pronunciation: "/ˌɹɛfəˈɹiːd/"
-    },
-    {
-      word: "leave",
-      definition: "To have a consequence or remnant. - (ausencia) Tener una consecuencia o remanente.",
-      pronunciation: "/liːv/"
-    },
-    {
-      word: "detaching",
-      definition: "To take apart from; to take off. - (Indiferente) Desmontar de; despegar.",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "photos",
-      definition: "A photograph. - (fotos) Una fotografía.",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
-      word: "reasserts",
-      definition: "Assert again - (reafirmaciones) Afirmar de nuevo",
-      pronunciation: "/No pronunciation available/"
-    },
-    
   ]
 };
 
