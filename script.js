@@ -3066,11 +3066,6 @@ let options = {
       pronunciation: "/ˈhɛdlɑŋ/"
     },
     {
-      word: "No.",
-      definition: "Definition of No.: An abstract entity used to describe quantity. - (Una entidad abstracta utilizada para describir la cantidad.)",
-      pronunciation: "/No pronunciation available/"
-    },
-    {
       word: "utilitarios",
       definition: "Definition of Utility: The state or condition of being useful; usefulness. - (El estado o condición de ser útil; utilidad.)",
       pronunciation: "/juːˈtɪl.ɪ.ti/"
@@ -3430,6 +3425,541 @@ let options = {
       definition: "Definition of optimistic: Expecting the best in all possible ways. - (Esperar lo mejor en todas las formas posibles.)",
       pronunciation: "/ˌɒptɪˈmɪstɪk/"
     },
+    {
+  word: "pistoleros",
+  definition: "Definition of gunmen: A criminal armed with a gun, especially a professional killer. - (Un criminal armado con un arma, especialmente un asesino profesional.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "central",
+  definition: "Definition of central: Being in the centre. - (Estar en el centro.)",
+  pronunciation: "/ˈsɛntɹəl/"
+},
+{
+  word: "comparación",
+  definition: "Definition of comparison: The act of comparing or the state or process of being compared. - (El acto de comparar o el estado o proceso de ser comparado.)",
+  pronunciation: "/kəmˈpæɹɪsən/"
+},
+{
+  word: "balcón",
+  definition: "Definition of balcony: An accessible structure extending from a building, especially outside a window. - (Una estructura accesible que se extiende desde un edificio, especialmente fuera de una ventana.)",
+  pronunciation: "/ˈbælkəni/"
+},
+{
+  word: "refracción",
+  definition: "Definition of reduction: The act, process, or result of reducing. - (El acto, proceso o resultado de reducir.)",
+  pronunciation: "/ɹiˈdɑk.ʃən/"
+},
+{
+  word: "Slander",
+  definition: "Definition of Slander: A false or unsupported, malicious statement (spoken, not written), especially one which is injurious to a person's reputation; the making of such a statement. - (Una declaración falsa o no respaldada, maliciosa (hablada, no escrita), especialmente una que es perjudicial para la reputación de una persona; la realización de dicha declaración.)",
+  pronunciation: "/ˈslændɚ/"
+},
+{
+  word: "gastos",
+  definition: "Definition of expenses: A spending or consuming, often a disbursement of funds. - (Un gasto o consumo, a menudo un desembolso de fondos.)",
+  pronunciation: "/ɪkˈspɛnsɪz/"
+},
+{
+  word: "peces dorados",
+  definition: "Definition of goldfish: A type of small fish, Carassius auratus, typically orange-colored. - (Un tipo de pez pequeño, Carassius auratus, típicamente de color naranja.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "Madeleinas",
+  definition: "Definition of Madeleines: A French type of small gateau or sponge cake, often shaped like an elongated scallop shell. - (Un tipo francés de bizcocho pequeño o bizcocho, a menudo con forma de concha de vieira alargada.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "volver a comprobar",
+  definition: "Definition of Recheck: The act of checking again; reverification. - (El acto de verificar de nuevo; reverificación.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "inversión",
+  definition: "Definition of investment: The act of investing, or state of being invested. - (El acto de invertir, o estado de ser invertido.)",
+  pronunciation: "/ɪnˈvɛsmənt/"
+},
+{
+  word: "Yclept",
+  definition: "Definition of Yclept: To give a call; cry out; appeal. - (Llamar; gritar; apelar.)",
+  pronunciation: "/ɪˈklɛpt/"
+},
+{
+  word: "pietismo",
+  definition: "Definition of Pietism: (often capitalized) A movement in the Lutheran church in the 17th and 18th centuries, calling for a return to practical and devout Christianity. - ((a menudo con mayúscula) Un movimiento en la iglesia luterana en los siglos XVII y XVIII, que pedía un retorno al cristianismo práctico y devoto.)",
+  pronunciation: "/ˈpʌɪətɪz(ə)m/"
+},
+{
+  word: "inflexibleidad",
+  definition: "Definition of inflexibility: The quality or state of being inflexible, or not capable of being bent or changed; unyielding stiffness - (La calidad o el estado de ser inflexible, o no ser capaz de doblarse o cambiarse; rigidez inflexible)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "concentro",
+  definition: "Definition of concentrate: A substance that is in a condensed form. - (Una sustancia que está en forma condensada.)",
+  pronunciation: "/ˈkɒn.sən.tɹeɪt/"
+},
+{
+  word: "desajuste",
+  definition: "Definition of mismatching: To match unsuitably; to fail to match - (Coincidir de manera inadecuada; no coincidir)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "estilización",
+  definition: "Definition of Styling: To design, fashion, make, or arrange in a certain way or form (style) - (Diseñar, diseñar, hacer u organizar de cierta manera o forma (estilo))",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "Uncia",
+  definition: "Definition of Snow leopard: A large feline mammal, Panthera uncia (syn. Uncia uncia), native to mountain ranges of central Asia. - (Un mamífero felino grande, Panthera uncia (sin. Uncia uncia), originaria de las cordilleras de Asia central.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "deuteragonistas",
+  definition: "Definition of deuteragonists: A secondary character; specifically, the second most important character (after the protagonist). - (Un personaje secundario; en concreto, el segundo personaje más importante (después del protagonista).)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "forjado",
+  definition: "Definition of forging: To shape a metal by heating and hammering. - (Para dar forma a un metal calentándolo y martillándolo.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "traición",
+  definition: "Definition of Treachery: Deliberate, often calculated, disregard for trust or faith. - (Desprecio deliberado, a menudo calculado, por la confianza o la fe.)",
+  pronunciation: "/ˈtɹɛtʃəɹi/"
+},
+{
+  word: "malinterpretado",
+  definition: "Definition of misunderstood: To understand incorrectly, while believing one has understood correctly. - (Comprender incorrectamente, mientras se cree que se ha entendido correctamente.)",
+  pronunciation: "/ˌmɪs.ʌn.dəˈstʊd/"
+},
+{
+  word: "Hangout",
+  definition: "Definition of Hangout: A place for hanging out; an informal meeting-place. - (Un lugar para pasar el rato; un lugar de reunión informal.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "sobrevivido",
+  definition: "Definition of Survived: Of a person, to continue to live; to remain alive. - (De una persona, seguir viviendo; seguir vivo.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "aclamadores",
+  definition: "Definition of cheers: A cheerful attitude; happiness; a good, happy, or positive mood. - (Una actitud alegre; felicidad; un estado de ánimo bueno, feliz o positivo.)",
+  pronunciation: "/tʃɪəz/"
+},
+{
+  word: "grúas",
+  definition: "Definition of cranes: Any bird of the family Gruidae, large birds with long legs and a long neck which is extended during flight. - (Cualquier ave de la familia Gruidae, aves grandes con patas largas y un cuello largo que se extiende durante el vuelo.)",
+  pronunciation: "/kɹeɪnz/"
+},
+{
+  word: "Earthstar",
+  definition: "Definition of Earthstar: A type of puffball mushroom, of genus Geastrum, whose surface splits open in a star-shaped form. - (Un tipo de hongo globo, del género Geastrum, cuya superficie se abre en forma de estrella.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "federalista",
+  definition: "Definition of Federalism: A system of national government in which power is divided between a central authority and a number of regions with delimited self-governing authority. - (Un sistema de gobierno nacional en el que el poder se divide entre una autoridad central y varias regiones con autoridad autónoma delimitada.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "higiénico",
+  definition: "Definition of hygienic: Pertaining to hygiene; clean, sanitary. - (Relativo a la higiene; limpio, sanitario.)",
+  pronunciation: "/haɪˈdʒiːnɪk/"
+},
+{
+  word: "místico",
+  definition: "Definition of Mysticism: The beliefs, ideas, or thoughts of mystics. - (Las creencias, ideas o pensamientos de los místicos.)",
+  pronunciation: "/ˈmɪs.tɪˌsɪz.əm̩/"
+},
+{
+  word: "semántica",
+  definition: "Definition of semantic: In such writing systems as the Chinese writing system, the portion of a phono-semantic character that provides an indication of its meaning; contrasted with phonetic. - (En sistemas de escritura como el sistema de escritura chino, la porción de un carácter fono-semántico que proporciona una indicación de su significado; en contraste con la fonética.)",
+  pronunciation: "/sɪˈmæntɪk/"
+},
+{
+  word: "congregantes",
+  definition: "Definition of CONGREGANTS: A member of a congregation. - (Un miembro de una congregación.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "Titular",
+  definition: "Definition of Owner: One who owns something. - (Uno que posee algo.)",
+  pronunciation: "/ˈəʊnə/"
+},
+{
+  word: "dualista",
+  definition: "Definition of Dualism: Duality; the condition of being double. - (Dualidad; la condición de ser doble.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "descansos",
+  definition: "Definition of Breaks: An instance of breaking something into two or more pieces. - (Una instancia de romper algo en dos o más pedazos.)",
+  pronunciation: "/bɹeɪks/"
+},
+{
+  word: "crucificado",
+  definition: "Definition of crucified: That has been subject to crucifixion - (Que ha sido objeto de crucifixión)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "juggles",
+  definition: "Definition of juggles: (juggling) The act of throwing and catching each prop at least twice, as opposed to a flash. - ((Malabarismo) El acto de lanzar y atrapar cada accesorio al menos dos veces, en lugar de un destello.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "genuinamente",
+  definition: "Definition of genuinely: In a genuine manner; truthfully, truly. - (De una manera genuina; sinceramente, de verdad.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "divididas",
+  definition: "Definition of divided: To split or separate (something) into two or more parts. - (Dividir o separar (algo) en dos o más partes.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "documentación",
+  definition: "Definition of documentation: Something transposed from a thought to a document; the written account of an idea. - (Algo transpuesto de un pensamiento a un documento; el relato escrito de una idea.)",
+  pronunciation: "/ˌdɒkjʊmənˈteɪʃən/"
+},
+{
+  word: "inconcertidumbre",
+  definition: "Definition of uncertainty: Doubt; the condition of being uncertain or without conviction. - (Duda; la condición de ser incierto o sin convicción.)",
+  pronunciation: "/ʌnˈsɜːtənti/"
+},
+{
+  word: "amazones",
+  definition: "Definition of amazons: A tall, strong, athletic woman. - (Una mujer alta, fuerte y atlética.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "rasgo",
+  definition: "Definition of feature: One's structure or make-up: form, shape, bodily proportions. - (La estructura o el maquillaje de uno: forma, figura, proporciones corporales.)",
+  pronunciation: "/ˈfiːtʃə/"
+},
+{
+  word: "sumidero",
+  definition: "Definition of cesspool: An underground pit where sewage is held. - (Un pozo subterráneo donde se almacenan las aguas residuales.)",
+  pronunciation: "/ˈsɛsˌpuːl/"
+},
+{
+  word: "receso",
+  definition: "Definition of BAG: A flexible container made of cloth, paper, plastic, etc. - (Un contenedor flexible de tela, papel, plástico, etc.)",
+  pronunciation: "/ˈbæːɡ/"
+},
+{
+  word: "Tippling",
+  definition: "Definition of Tippling: To sell alcoholic liquor by retail. - (Para vender licor alcohólico al por menor.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "puntualidad",
+  definition: "Definition of Punctuality: The state of being punctual - (El estado de puntualidad)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "cartucho",
+  definition: "Definition of canister: A cylindrical or rectangular container usually of lightweight metal, plastic, or laminated pasteboard used for holding a dry product (as tea, crackers, flour, matches). - (Un recipiente cilíndrico o rectangular, generalmente de metal liviano, plástico o cartón laminado, utilizado para contener un producto seco (como té, galletas saladas, harina, fósforos).)",
+  pronunciation: "/ˈkænɪstɚ/"
+},
+{
+  word: "degenerado",
+  definition: "Definition of degenerate: One who is degenerate, who has fallen from previous stature; an immoral person. - (Uno que es degenerado, que ha caído de su estatura anterior; una persona inmoral.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "hipocondriacal",
+  definition: "Definition of hypochondriacal: Coming from the hypochondria; pertaining to or caused by depressive spirits. - (Procedente de la hipocondría; perteneciente o causado por espíritus depresivos.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "enanos",
+  definition: "Definition of Dwarf: Any member of a race of beings from (especially Scandinavian and other Germanic) folklore, usually depicted as having some sort of supernatural powers and being skilled in crafting and metalworking, often as short with long beards, and sometimes as clashing with elves. - (Cualquier miembro de una raza de seres del folclore (especialmente escandinavo y germánico), generalmente representado como poseedor de algún tipo de poderes sobrenaturales y experto en la artesanía y la metalurgia, a menudo tan corto con barbas largas y, a veces, chocando con elfos.)",
+  pronunciation: "/dwɔːf/"
+},
+{
+  word: "digitales",
+  definition: "Definition of business: A specific commercial enterprise or establishment. - (Una empresa o establecimiento comercial específico.)",
+  pronunciation: "/ˈbɪd.nəs/"
+},
+{
+  word: "corporalidad",
+  definition: "Definition of corporality: The state of being or having a body; bodily existence; corporeality. - (El estado de ser o tener un cuerpo; existencia corporal; corporeidad.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "asperidades",
+  definition: "Definition of asperities: Roughness as of stone or weather. - (Aspereza como de piedra o clima.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "domiciliaciones",
+  definition: "Definition of Direct debits: A single order to allow a commercial, or similar entity to charge directly to one's bank for a regular payment. - (Una sola orden para permitir que una entidad comercial o similar cobre directamente al banco de uno por un pago regular.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "decertificado",
+  definition: "Definition of decertified: To annul the certification of. - (Anular la certificación de.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "econométrica",
+  definition: "Definition of econometrics: The branch of economics that applies statistical methods to the empirical study of economic theories and relationships. - (La rama de la economía que aplica métodos estadísticos al estudio empírico de las teorías y relaciones económicas.)",
+  pronunciation: "/ɪˌkɒnəˈmɛtrɪks/"
+},
+{
+  word: "papelers",
+  definition: "Definition of papers: A sheet material used for writing on or printing on (or as a non-waterproof container), usually made by draining cellulose fibres from a suspension in water. - (Un material de lámina utilizado para escribir o imprimir sobre (o como un recipiente no impermeable), generalmente hecho drenando fibras de celulosa de una suspensión en agua.)",
+  pronunciation: "/ˈpeɪpəz/"
+},
+{
+  word: "laureate",
+  definition: "Definition of Laureate: One crowned with laurel, such as a poet laureate or Nobel laureate. - (Uno coronado con laurel, como un poeta laureado o un premio Nobel.)",
+  pronunciation: "/ˈlɒ.ɹi.ət/"
+},
+{
+  word: "seguro",
+  definition: "Definition of insurance: A means of indemnity against a future occurrence of an uncertain event. - (Un medio de indemnización contra una ocurrencia futura de un evento incierto.)",
+  pronunciation: "/ɪn.ˈʃɔː.ɹəns/"
+},
+{
+  word: "traducción",
+  definition: "Definition of translation: The act of translating, in its various senses: - (El acto de traducir, en sus diversos sentidos:)",
+  pronunciation: "/tɹæns-/"
+},
+{
+  word: "justicias",
+  definition: "Definition of justice: The state or characteristic of being just or fair. - (El estado o característica de ser justo o equitativo.)",
+  pronunciation: "/ˈdʒʌs.tɪs/"
+},
+{
+  word: "testigos presenciales",
+  definition: "Definition of EYEWITNESSES: Someone who sees an event and can report or testify about it. - (Alguien que ve un evento y puede informar o testificar al respecto.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "obedecido",
+  definition: "Definition of obeyed: To do as ordered by (a person, institution etc), to act according to the bidding of. - (Para hacer lo ordenado por (una persona, institución, etc.), para actuar de acuerdo con la licitación de.)",
+  pronunciation: "/əʊˈbeɪd/"
+},
+{
+  word: "sumergibles",
+  definition: "Definition of SUBMERSIBLES: A small nonmilitary, non-nuclear submarine for exploration. - (Un pequeño submarino no militar y no nuclear para exploración.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "impastado",
+  definition: "Definition of kneaded: To work and press into a mass, usually with the hands; especially, to work, as by repeated pressure with the knuckles, into a well mixed mass, the materials of bread, cake, etc. - (Trabajar y presionar en una masa, generalmente con las manos; especialmente, trabajar, como por presión repetida con los nudillos, en una masa bien mezclada, los materiales de pan, pastel, etc.)",
+  pronunciation: "/ˈniːdɪd/"
+},
+{
+  word: "vintage",
+  definition: "Definition of vintage: The yield of grapes or wine from a vineyard or district during one season. - (El rendimiento de uvas o vino de un viñedo o distrito durante una temporada.)",
+  pronunciation: "/ˈvɪn.tɪdʒ/"
+},
+{
+  word: "derivada",
+  definition: "Definition of derivative: Something derived. - (Algo derivado.)",
+  pronunciation: "/dɪˈɹɪvətɪv/"
+},
+{
+  word: "autopsias",
+  definition: "Definition of autopsies: A dissection performed on a cadaver to find possible cause(s) of death. - (Una disección realizada en un cadáver para encontrar la (s) posible (s) causa(s) de muerte.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "envidiable",
+  definition: "Definition of enviable: Arousing or likely to arouse envy. - (Despierta o es probable que despierte envidia.)",
+  pronunciation: "/ˈɛnvi.əbl̩/"
+},
+{
+  word: "paraguas",
+  definition: "Definition of umbrella: Cloth-covered frame used for protection against rain or sun. - (Marco cubierto de tela utilizado para la protección contra la lluvia o el sol.)",
+  pronunciation: "/ʌmˈbɹɛlə/"
+},
+{
+  word: "atomista",
+  definition: "Definition of Atomism: The ancient Greek theory that all matter is composed of very small indestructible and indivisible particles. - (La antigua teoría griega de que toda la materia está compuesta de partículas indestructibles e indivisibles muy pequeñas.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "formulaciones",
+  definition: "Definition of suspension: The act of suspending, or the state of being suspended. - (El acto de suspender, o el estado de estar suspendido.)",
+  pronunciation: "/səˈspɛnʃən/"
+},
+{
+  word: "fotoquímica",
+  definition: "Definition of photochemistry: The study of photochemical reactions. - (El estudio de las reacciones fotoquímicas.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "motoneurones",
+  definition: "Definition of motor neurons: A neuron located in the central nervous system that projects its axon outside the CNS and directly or indirectly control muscles. - (Una neurona ubicada en el sistema nervioso central que proyecta su axón fuera del SNC y controla directa o indirectamente los músculos.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "codificación",
+  definition: "Definition of codification: The process of precisely formulating a statement, such as a code of laws. - (El proceso de formular con precisión una declaración, como un código de leyes.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "Sábanas",
+  definition: "Definition of Bedding: The textiles associated with a bed, e.g., sheets, pillowcases, bedspreads, blankets, etc. - (Los textiles asociados con una cama, por ejemplo, sábanas, fundas de almohada, colchas, mantas, etc.)",
+  pronunciation: "/ˈbɛdɪŋ/"
+},
+{
+  word: "blancas",
+  definition: "Definition of white: The color/colour of snow or milk; the colour of light containing equal amounts of all visible wavelengths. - (El color/color de la nieve o la leche; el color de la luz que contiene cantidades iguales de todas las longitudes de onda visibles.)",
+  pronunciation: "/waɪt/"
+},
+{
+  word: "hermanas",
+  definition: "Definition of sisters: A daughter of the same parents as another person; a female sibling. - (Hija de los mismos padres que otra persona; hermana.)",
+  pronunciation: "/ˈsɪstəz/"
+},
+{
+  word: "tartrato",
+  definition: "Definition of tartrate: Any salt or ester of tartaric acid - (Cualquier sal o éster de ácido tartárico)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "antígeno",
+  definition: "Definition of antigen: A substance that induces an immune response, usually foreign. - (Sustancia que induce una respuesta inmunitaria, generalmente extraña.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "alfareros",
+  definition: "Definition of potters: One who makes pots and other ceramic wares. - (Uno que hace ollas y otros artículos de cerámica.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "represiones",
+  definition: "Definition of repressions: The act of repressing; state of being repressed. - (El acto de reprimir; estado de ser reprimido.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "flexión",
+  definition: "Definition of bending: To cause (something) to change its shape into a curve, by physical force, chemical action, or any other means. - (Hacer que (algo) cambie su forma en una curva, por fuerza física, acción química o cualquier otro medio.)",
+  pronunciation: "/ˈbɛndɪŋ/"
+},
+{
+  word: "basura",
+  definition: "Definition of garbage: Food waste material of any kind. - (Material de desperdicio de alimentos de cualquier tipo.)",
+  pronunciation: "/ˈɡɑːbɪd͡ʒ/"
+},
+{
+  word: "contratenores",
+  definition: "Definition of countertenors: Adult male singer who uses head tone or falsetto to sing far higher than the typical male vocal range - (Cantante masculino adulto que usa tono de cabeza o falsete para cantar mucho más alto que el rango vocal masculino típico)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "Cuadros",
+  definition: "Definition of Panels: A (usually) rectangular section of a surface, or of a covering or of a wall, fence etc. - (Una sección (generalmente) rectangular de una superficie, o de una cubierta o de una pared, cerca, etc.)",
+  pronunciation: "/ˈpænəlz/"
+},
+{
+  word: "Gowning",
+  definition: "Definition of Gowning: To dress in a gown, to don or garb with a gown. - (Para vestirse con una bata, ponerse o vestirse con una bata.)",
+  pronunciation: "/ˈɡaʊnɪŋ/"
+},
+{
+  word: "agitación",
+  definition: "Definition of agitating: To disturb or excite; to perturb or stir up (a person). - (Perturbar o excitar; perturbar o agitar (a una persona).)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "glamour",
+  definition: "Definition of glamour: Originally, enchantment; magic charm; especially, the effect of a spell that causes one to see objects in a form that differs from reality, typically to make filthy, ugly, or repulsive things seems beauteous. - (Originalmente, encantamiento; encanto mágico; especialmente, el efecto de un hechizo que hace que uno vea objetos en una forma que difiere de la realidad, típicamente para hacer cosas sucias, feas o repulsivas parece bello.)",
+  pronunciation: "/ˈɡlæmə/"
+},
+{
+  word: "deshumidificar",
+  definition: "Definition of dehumidify: To reduce the moisture in a body of air; to lower the humidity. - (Para reducir la humedad en un cuerpo de aire; para bajar la humedad.)",
+  pronunciation: "/diːˌhjuːˈmɪdɪfaɪ/"
+},
+{
+  word: "excusables",
+  definition: "Definition of excusable: Possible to excuse - (Posible excusar)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "cliometricos",
+  definition: "Definition of cliometrics: The use of econometrics to study economic history - (El uso de la econometría para estudiar historia económica)",
+  pronunciation: "/ˌklaɪəʊˈmɛtɹɪks/"
+},
+{
+  word: "acompañada",
+  definition: "Definition of accompanied: Having accompaniment; being part of a group of at least two. - (Tener acompañamiento; formar parte de un grupo de al menos dos.)",
+  pronunciation: "/əˈkʌmpnid/"
+},
+{
+  word: "espermatozoides",
+  definition: "Definition of spermatozoa: A reproductive cell or gamete of a male, carried in semen, that fertilizes an ovum to produce a zygote. - (Una célula reproductiva o gameto de un macho, transportado en el semen, que fertiliza un óvulo para producir un cigoto.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "pistoleros",
+  definition: "Definition of gunmen: A criminal armed with a gun, especially a professional killer. - (Un criminal armado con un arma, especialmente un asesino profesional.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "gasolina",
+  definition: "Definition of gasoline: A flammable liquid consisting of a mixture of refined petroleum hydrocarbons, mainly used as a motor fuel; petrol. - (Un líquido inflamable que consiste en una mezcla de hidrocarburos refinados de petróleo, utilizados principalmente como combustible para motores; gasolina.)",
+  pronunciation: "/ˈɡæs.ə.lin/"
+},
+{
+  word: "Scooches",
+  definition: "Definition of Scooches: To shift, move aside, or scoot over. - (Para cambiar de lugar, moverse a un lado o deslizarse.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "salpicadas",
+  definition: "Definition of splashed: To hit or agitate liquid so that part of it separates from the principal liquid mass. - (Golpear o agitar el líquido para que parte de él se separe de la masa líquida principal.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "antiestático",
+  definition: "Definition of antistatic: An agent or substance that prevents the buildup of static electricity. - (Un agente o sustancia que evita la acumulación de electricidad estática.)",
+  pronunciation: "/No pronunciation available/"
+},
+{
+  word: "procesador",
+  definition: "Definition of processor: A person or institution who processes things (foods, photos, applications, etc.). - (Una persona o institución que procesa cosas (alimentos, fotos, aplicaciones, etc.).)",
+  pronunciation: "/ˈpɹəʊˌsɛsə(ɹ)/"
+},
+{
+  word: "emboscada",
+  definition: "Definition of ambush: The act of concealing oneself and lying in wait to attack by surprise. - (El acto de ocultarse y acechar para atacar por sorpresa.)",
+  pronunciation: "/ˈæm.bʊʃ/"
+},
+{
+  word: "Pandect",
+  definition: "Definition of Pandect: Usually in the plural form Pandects: a compendium or digest of writings on Roman law divided in 50 books, compiled in the 6th century C.E. by order of the Eastern Roman emperor Justinian I (c. 482–565). - (Por lo general, en forma plural Pandects: un compendio o compendio de escritos sobre derecho romano divididos en 50 libros, compilados en el siglo VI d.C. por orden del emperador romano de Oriente Justiniano I (c. 482–565).)",
+  pronunciation: "/ˈpændɛkt/"
+},
+{
+  word: "resistencia",
+  definition: "Definition of resistance: The act of resisting, or the capacity to resist. - (El acto de resistir, o la capacidad de resistir.)",
+  pronunciation: "/ɹɪˈzɪstəns/"
+},
+{
+  word: "no legible",
+  definition: "Definition of ILLEGIBLE: Not clear enough to be read; unreadable; not legible or decipherable. - (No lo suficientemente claro como para ser leído; ilegible; no legible o descifrable.)",
+  pronunciation: "/ɪˈlɛd͡ʒəbəl/"
+},
+{
+  word: "francés",
+  definition: "Definition of French: To prepare food by cutting it into strips. - (Preparar la comida cortándola en tiras.)",
+  pronunciation: "/fɹɛnt͡ʃ/"
+},
+{
+  word: "medianoche",
+  definition: "Definition of midnight: The middle of the night: the sixth temporal hour, equidistant between sunset and sunrise. - (La mitad de la noche: la sexta hora temporal, equidistante entre el atardecer y el amanecer.)",
+  pronunciation: "/ˈmɪdnʌɪt/"
+},
   ]
 };
 
