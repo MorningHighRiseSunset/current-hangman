@@ -33,7 +33,7 @@
     <!-- Hidden checkbox for toggling instructions -->
     <input type="checkbox" id="toggle" class="visually-hidden">
     <label for="toggle" id="instructionsButton">Instructions</label>
-    <div id="instructionsPopup">
+    <div id="instructionsPopup" style="height: 200px; overflow-y: scroll;">
         <p>
             *💬 - Click to activate chat in video box<br>
             * Click on letter on keyboard to initiate game.<br>
@@ -43,6 +43,16 @@
             * Keep guessing until you either solve the word or run out of attempts.<br>
             Tips:<br>
             Bottom-right Button - Use to change Background.
+        </p>
+        <p>
+            *💬 - Haz clic para activar el chat en el cuadro de video<br>
+            * Haz clic en una letra del teclado para iniciar el juego.<br>
+            * Haz clic en "Reiniciar" si deseas comenzar un nuevo juego.<br>
+            * Adivina las letras para descubrir la palabra oculta antes de quedarte sin intentos.<br>
+            * Evita errores para prevenir que el ahorcado se complete.<br>
+            * Sigue adivinando hasta que resuelvas la palabra o te quedes sin intentos.<br>
+            Consejos:<br>
+            Botón inferior derecho - Úsalo para cambiar el fondo.
         </p>
     </div>
 
@@ -56,6 +66,7 @@
     <div id="correct-words-list" class="correct-words-container"></div>
     <div id="streak">Current Streak: 0</div>
     <button id="showHighestScore">Show Highest Score</button>
+    <div id="gifContainer"></div>
 
     <!-- Script -->
     <script src="script.js"></script>
