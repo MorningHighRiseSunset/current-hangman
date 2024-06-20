@@ -10,9 +10,6 @@ const resultText = document.getElementById("result-text");
 let currentStreak = 0;
 let highestScore = 0;
 
-document.getElementById('showHighestScore').addEventListener('click', function() {
-  alert(`Highest Score: ${highestScore}`);
-});
 
 // Ensure the correct words list container exists only once
 const correctWordsList = document.getElementById("correct-words-list") || createCorrectWordsList();
@@ -22,7 +19,7 @@ function createCorrectWordsList() {
       const listContainer = document.createElement("div");
       listContainer.id = "correct-words-list";
       listContainer.className = "correct-words-container";
-      listContainer.style.maxHeight = '300px'; // Ensure max-height is set
+      listContainer.style.maxHeight = '600px'; // Ensure max-height is set
       listContainer.style.overflowY = 'auto'; // Ensure overflow is auto
       document.body.appendChild(listContainer);
       return listContainer;
@@ -3440,13 +3437,22 @@ let count = 0;
 let chosenWord = "";
 let chosenDefinition = "";
 
-//Display option buttons
+// Display option buttons
 const displayOptions = () => {
   optionsContainer.innerHTML = ""; // Clear previous options
   let buttonCon = document.createElement("div");
+
   for (let value in options) {
-    buttonCon.innerHTML += `<button class="options" onclick="generateWord('${value}')">${value}</button>`;
+    let button = document.createElement("button");
+    button.className = "options";
+    button.textContent = value;
+    button.addEventListener("click", () => {
+      generateWord(value);
+      optionsContainer.innerHTML = ""; // Clear options after click
+    });
+    buttonCon.appendChild(button);
   }
+
   optionsContainer.appendChild(buttonCon);
 };
 
@@ -3515,7 +3521,7 @@ const initializer = () => {
     letterContainer.append(button);
   }
 
-  const additionalChars = ["'", "-", "ã", "ṽ", "ñ", "é", "á", "í", "ó", "ú", "ü"];
+  const additionalChars = ["'", "-", "ã", "ṽ", "ñ", "é", "á", "í", "ó", "ú",];
   additionalChars.forEach(char => {
     let button = document.createElement("button");
     button.classList.add("letters");
@@ -3566,7 +3572,9 @@ function showDefinitionPopup(word, definition, isWin) {
   const color = isWin ? "green" : "red";
   const newListItem = document.createElement("li");
   newListItem.innerHTML = `<strong style="color: ${color};">${word}</strong>: ${definition}`;
-  correctWordsList.appendChild(newListItem);
+  const list = document.getElementById("correct-words-list") || createCorrectWordsList();
+  // Prepend the new word to the list so it appears at the top
+  list.prepend(newListItem);
 }
 
 // Canvas drawing functions
@@ -3577,43 +3585,43 @@ const canvasCreator = () => {
   context.lineWidth = 5;
 
   const drawLine = (fromX, fromY, toX, toY) => {
-    context.moveTo(fromX, fromY);
-    context.lineTo(toX, toY);
+    context.moveTo(fromX, fromY - 5); // Moved up by 5 pixels (less than before)
+    context.lineTo(toX, toY - 5); // Moved up by 5 pixels (less than before)
     context.stroke();
   };
 
   const head = () => {
     context.beginPath();
-    context.arc(70, 30, 10, 0, Math.PI * 2, true);
+    context.arc(70, 25, 10, 0, Math.PI * 2, true); // Moved up by 5 pixels (less than before)
     context.stroke();
   };
 
   const body = () => {
-    drawLine(70, 40, 70, 80);
+    drawLine(70, 35, 70, 75); // Adjusted coordinates (less upward shift)
   };
 
   const leftArm = () => {
-    drawLine(70, 50, 50, 70);
+    drawLine(70, 45, 50, 65); // Adjusted coordinates (less upward shift)
   };
 
   const rightArm = () => {
-    drawLine(70, 50, 90, 70);
+    drawLine(70, 45, 90, 65); // Adjusted coordinates (less upward shift)
   };
 
   const leftLeg = () => {
-    drawLine(70, 80, 50, 110);
+    drawLine(70, 75, 50, 105); // Adjusted coordinates (less upward shift)
   };
 
   const rightLeg = () => {
-    drawLine(70, 80, 90, 110);
+    drawLine(70, 75, 90, 105); // Adjusted coordinates (less upward shift)
   };
 
   const initialDrawing = () => {
     context.clearRect(0, 0, context.canvas.width, context.canvas.height);
-    drawLine(10, 130, 130, 130);
-    drawLine(10, 10, 10, 131);
-    drawLine(10, 10, 70, 10);
-    drawLine(70, 10, 70, 20);
+    drawLine(10, 125, 130, 125); // Moved up by 5 pixels (less than before)
+    drawLine(10, 15, 10, 126); // Adjusted coordinates (less upward shift)
+    drawLine(10, 15, 70, 15); // Same as before, less upward shift
+    drawLine(70, 15, 70, 15); // Moved up by 5 pixels (less than before)
   };
 
   return { initialDrawing, head, body, leftArm, rightArm, leftLeg, rightLeg };
@@ -3651,79 +3659,6 @@ newGameButton.addEventListener("click", initializer);
 window.onload = initializer;
 
 // script.js
-
-document.body.style.backgroundImage = "url('https://assetstorev1-prd-cdn.unity3d.com/key-image/eafd57a1-6f8f-44c8-ab16-f4da1c1ae7e7.jpg')";
-document.body.style.backgroundSize = "100% 100%";
-document.body.style.backgroundRepeat = "no-repeat";
-document.body.style.backgroundPosition = "center";
-document.body.style.width = "100vw";
-document.body.style.height = "100vh";
-
-var tumbleweed = document.createElement('img');
-tumbleweed.src = "output-onlinegiftools.gif";
-tumbleweed.alt = "Tumbleweed";
-tumbleweed.style.position = 'absolute';
-tumbleweed.style.top = '76%';
-tumbleweed.style.left = '0';
-tumbleweed.style.width = '120px'; // Adjust the width as needed
-tumbleweed.style.height = 'auto'; // Maintain aspect ratio
-document.body.appendChild(tumbleweed);
-
-var position = 0;
-var speed = 1; // Adjust speed as needed
-
-function moveTumbleweed() {
-  if (document.body.style.backgroundImage.includes("unity3d")) { // Check if the background contains the specific image URL
-    position += speed;
-    tumbleweed.style.left = position + 'px';
-    if (position < window.innerWidth) {
-      requestAnimationFrame(moveTumbleweed);
-    } else {
-      position = -tumbleweed.width; // Reset position to the left of the screen
-      tumbleweed.style.left = position + 'px'; // Set the initial position
-      moveTumbleweed(); // Restart the animation immediately
-    }
-
-    // Temporarily hide overflow during animation
-    document.body.style.overflow = 'hidden';
-
-    // Reset overflow to default after animation completes
-    if (position >= window.innerWidth) {
-      document.body.style.overflow = 'auto';
-    }
-  }
-}
-
-moveTumbleweed();
-
-document.addEventListener("DOMContentLoaded", function() {
-  const body = document.body;
-  body.style.backgroundAttachment = "fixed"; // This will keep the background fixed during scrolling
-
-  const changeBackgroundButton = document.createElement("button");
-  changeBackgroundButton.textContent = "Change Background";
-  changeBackgroundButton.id = "changeBackground";
-  document.body.appendChild(changeBackgroundButton);
-
-  changeBackgroundButton.addEventListener("click", function() {
-      const backgrounds = [
-          "https://64.media.tumblr.com/f1580c43a35318d575498d6049568d4c/27bd7103dd700c5a-b3/s500x750/9b2bef2d7734a7c3c0f3ab43522666a7a3d3adba.gif",
-          "https://64.media.tumblr.com/3f4c144b0e13323ba97a59a6761fbb78/50cd3b10801c5f9d-11/s500x750/0f14fd6578f201f12c9f4b0db476eecc3a3d7138.gif",
-          "https://64.media.tumblr.com/7288fb9c5a568fc033a233b1b5862886/27bd7103dd700c5a-de/s500x750/8e8261cf6e76222c6ca0ab275a5dcae5e2fbd7cb.gifv",
-          "https://assetstorev1-prd-cdn.unity3d.com/key-image/eafd57a1-6f8f-44c8-ab16-f4da1c1ae7e7.jpg",
-      ];
-
-      const randomBackground = backgrounds[Math.floor(Math.random() * backgrounds.length)];
-      body.style.backgroundImage = `url('${randomBackground}')`;
-
-      if (randomBackground === "https://assetstorev1-prd-cdn.unity3d.com/key-image/eafd57a1-6f8f-44c8-ab16-f4da1c1ae7e7.jpg") {
-          tumbleweed.style.display = "block"; // Show the tumbleweed
-          moveTumbleweed(); // Move the tumbleweed
-      } else {
-          tumbleweed.style.display = "none"; // Hide the tumbleweed
-      }
-  });
-});
 
 
 // Modify the letterButtonClickHandler function to include a check for the solve command
